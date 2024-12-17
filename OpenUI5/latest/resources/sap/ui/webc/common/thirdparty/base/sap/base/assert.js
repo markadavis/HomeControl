@@ -1,0 +1,1 @@
+sap.ui.define(["./Log"],function(e){"use strict";var s=function(s,n){if(!s){var o=typeof n==="function"?n():n;if(console&&console.assert){console.assert(s,o)}else{e.debug("[Assertions] "+o)}}};return s});

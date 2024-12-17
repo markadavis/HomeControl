@@ -1,0 +1,6 @@
+/*!
+ * OpenUI5
+ * (c) Copyright 2009-2021 SAP SE or an SAP affiliate company.
+ * Licensed under the Apache License, Version 2.0 - see LICENSE.txt.
+ */
+sap.ui.define(["./SelectFilter","./DateRangeFilter","sap/ui/base/Object","sap/m/library","sap/m/HBox"],function(S,D,B,l,H){"use strict";var F=l.FlexWrap;var R=l.FlexRendertype;var a=B.extend("sap.ui.integration.util.FilterBarFactory",{metadata:{library:"sap.ui.integration"},constructor:function(c){B.call(this);this._oCard=c;}});a.prototype.create=function(f,m){var b=[],r=[],c,k,o,d,e=null;for(k in f){c=f[k];e=this._getClass(c.type);o=new e({card:this._oCard,key:k,config:c,value:{model:"filters",path:"/"+k}});m.setProperty("/"+k,o.getValueForModel());this._awaitEvent(r,o,"_ready");o._setDataConfiguration(c.data);b.push(o);}if(!b.length){return null;}for(var i=0;i<b.length-1;i++){b[i].addStyleClass("sapUiTinyMarginEnd");}d=new H({wrap:F.Wrap,renderType:R.Bare,items:b});Promise.all(r).then(function(){d.fireEvent("_filterBarDataReady");});return d;};a.prototype._awaitEvent=function(p,f,e){p.push(new Promise(function(r){f.attachEventOnce(e,function(){r();});}));};a.prototype._getClass=function(t){t=t||"select";switch(t.toLowerCase()){case"string":case"integer":case"select":return S;case"daterange":return D;default:return undefined;}};return a;});

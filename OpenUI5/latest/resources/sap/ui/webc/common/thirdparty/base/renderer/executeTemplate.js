@@ -1,0 +1,1 @@
+sap.ui.define(["../CustomElementsScope"],function(e){"use strict";const t=(t,n)=>{const s=n.constructor.getUniqueDependencies().map(e=>e.getMetadata().getPureTag()).filter(e.shouldScopeCustomElement);const o=e.getCustomElementsScopingSuffix();return t(n,s,o)};return t});

@@ -1,0 +1,6 @@
+/*!
+ * OpenUI5
+ * (c) Copyright 2009-2021 SAP SE or an SAP affiliate company.
+ * Licensed under the Apache License, Version 2.0 - see LICENSE.txt.
+ */
+sap.ui.define(["../cards/ListContentRenderer","sap/ui/integration/library","sap/ui/core/Element","sap/f/cards/loading/GenericPlaceholder","sap/f/cards/loading/ListPlaceholder"],function(L,l,E,G,a){"use strict";var b=E.extend("sap.ui.integration.util.LoadingProvider",{metadata:{library:"sap.ui.integration",properties:{loading:{type:"boolean",defaultValue:false}}}});b.prototype.setLoading=function(c){if(this.isDataProviderJson()){return;}this.setProperty("loading",c);};b.prototype.isDataProviderJson=function(){return!!(this._oDataProvider&&this._oDataProvider.getSettings()&&this._oDataProvider.getSettings()["json"]);};b.prototype.setDataProvider=function(d){this._oDataProvider=d;};b.prototype.destroy=function(){if(this._oContentPlaceholder){this._oContentPlaceholder.destroy();this._oContentPlaceholder=null;}this._oDataProvider=null;E.prototype.destroy.apply(this,arguments);};b.prototype.createContentPlaceholder=function(c,t,C){switch(t){case"List":this._oContentPlaceholder=new a({maxItems:c.maxItems?parseInt(c.maxItems):2,item:c.item,itemHeight:L.getItemMinHeight(c,C||this)+"rem"});break;default:this._oContentPlaceholder=new G();}return this._oContentPlaceholder;};return b;});

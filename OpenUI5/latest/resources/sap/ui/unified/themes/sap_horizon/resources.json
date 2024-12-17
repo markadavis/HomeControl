@@ -1,0 +1,128 @@
+{
+	"_version": "1.1.0",
+	"resources": [
+		{
+			"name": ".theming",
+			"size": 90,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "Calendar.less",
+			"size": 18702,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "CalendarLegend.less",
+			"size": 260,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "CalendarRow.less",
+			"size": 4757,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "ColorPicker.less",
+			"size": 4339,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "ColorPicker/Alphaslider_BG.png",
+			"size": 2936,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "ColorPicker/Swatch_BG.png",
+			"size": 954,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "FileUploader.less",
+			"size": 1772,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "Menu.less",
+			"size": 3358,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "ShellHeader.less",
+			"size": 750,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "ShellLayout.less",
+			"size": 1338,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "ShellOverlay.less",
+			"size": 663,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "css_variables.css",
+			"size": 19876,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "css_variables.less",
+			"size": 118664,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "css_variables.source.less",
+			"size": 118296,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "library-RTL.css",
+			"size": 160409,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "library-parameters.json",
+			"size": 8033,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "library.css",
+			"size": 160304,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "library.less",
+			"size": 37001,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "library.source.less",
+			"size": 574,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "library_skeleton-RTL.css",
+			"size": 169496,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "library_skeleton.css",
+			"size": 169391,
+			"theme": "sap_horizon"
+		}
+	]
+}

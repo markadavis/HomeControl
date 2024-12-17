@@ -1,0 +1,6 @@
+/*
+ * ! OpenUI5
+ * (c) Copyright 2009-2021 SAP SE or an SAP affiliate company.
+ * Licensed under the Apache License, Version 2.0 - see LICENSE.txt.
+ */
+sap.ui.define(['sap/ui/mdc/filterbar/IFilterContainer','sap/m/Table','sap/m/Column','sap/m/Text','sap/m/VBox'],function(I,T,C,a,V){"use strict";var b=I.extend("sap.ui.mdc.filterbar.p13n.TableContainer");b.prototype.init=function(){I.prototype.init.apply(this,arguments);var r=sap.ui.getCore().getLibraryResourceBundle("sap.ui.mdc");this._oTable=new T({sticky:["ColumnHeaders"],growing:true,columns:[new C({header:new a({text:r.getText("filter.AdaptationFilterBar_FIELD_COLUMN")})}),new C({header:new a({text:r.getText("filter.AdaptationFilterBar_FIELD_VALUE_COLUMN")})})]});this._oMessageStripContainer=new V(this.getId()+"-messageStripContainer");this.oLayout=new V({items:[this._oMessageStripContainer,this._oTable]});};b.prototype.insertFilterField=function(c,i){this._oTable.insertItem(c,i);};b.prototype.removeFilterField=function(c){this._oTable.removeItem(c);};b.prototype.setMessageStrip=function(s){this._oMessageStripContainer.removeAllItems();this._oMessageStripContainer.addItem(s);};b.prototype.getFilterFields=function(){return this._oTable.getItems();};b.prototype.update=function(){};b.prototype.exit=function(){this._oTable=null;this._oMessageStripContainer=null;};return b;});

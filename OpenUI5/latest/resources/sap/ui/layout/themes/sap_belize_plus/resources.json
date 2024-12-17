@@ -1,0 +1,70 @@
+{
+	"_version": "1.1.0",
+	"resources": [
+		{
+			"name": ".theming",
+			"size": 611,
+			"theme": "sap_belize_plus"
+		},
+		{
+			"name": "BlockLayoutCell.less",
+			"size": 295,
+			"designtime": true,
+			"theme": "sap_belize_plus"
+		},
+		{
+			"name": "css_variables.css",
+			"size": 14575,
+			"theme": "sap_belize_plus"
+		},
+		{
+			"name": "css_variables.less",
+			"size": 109853,
+			"designtime": true,
+			"theme": "sap_belize_plus"
+		},
+		{
+			"name": "css_variables.source.less",
+			"size": 109477,
+			"designtime": true,
+			"theme": "sap_belize_plus"
+		},
+		{
+			"name": "library-RTL.css",
+			"size": 318054,
+			"theme": "sap_belize_plus"
+		},
+		{
+			"name": "library-parameters.json",
+			"size": 6587,
+			"theme": "sap_belize_plus"
+		},
+		{
+			"name": "library.css",
+			"size": 317585,
+			"theme": "sap_belize_plus"
+		},
+		{
+			"name": "library.less",
+			"size": 897,
+			"designtime": true,
+			"theme": "sap_belize_plus"
+		},
+		{
+			"name": "library.source.less",
+			"size": 373,
+			"designtime": true,
+			"theme": "sap_belize_plus"
+		},
+		{
+			"name": "library_skeleton-RTL.css",
+			"size": 315220,
+			"theme": "sap_belize_plus"
+		},
+		{
+			"name": "library_skeleton.css",
+			"size": 314751,
+			"theme": "sap_belize_plus"
+		}
+	]
+}

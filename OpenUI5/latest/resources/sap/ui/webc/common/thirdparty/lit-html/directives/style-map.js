@@ -1,0 +1,6 @@
+sap.ui.define(["exports","../lit-html","../directive"],function(e,t,r){"use strict";
+/**
+	 * @license
+	 * Copyright 2018 Google LLC
+	 * SPDX-License-Identifier: BSD-3-Clause
+	 */const s=r.directive(class extends r.Directive{constructor(e){var t;if(super(e),e.type!==r.PartType.ATTRIBUTE||"style"!==e.name||(null===(t=e.strings)||void 0===t?void 0:t.length)>2)throw Error("The `styleMap` directive must be used in the `style` attribute and must be the only part in the attribute.")}render(e){return Object.keys(e).reduce((t,r)=>{const s=e[r];return null==s?t:t+`${r=r.replace(/(?:^(webkit|moz|ms|o)|)(?=[A-Z])/g,"-$&").toLowerCase()}:${s};`},"")}update(e,[r]){const{style:s}=e.element;if(void 0===this.St){this.St=new Set;for(const e in r)this.St.add(e);return this.render(r)}this.St.forEach(e=>{null==r[e]&&(this.St.delete(e),e.includes("-")?s.removeProperty(e):s[e]="")});for(const e in r){const t=r[e];null!=t&&(this.St.add(e),e.includes("-")?s.setProperty(e,t):s[e]=t)}return t.noChange}});e.styleMap=s;Object.defineProperty(e,"__esModule",{value:true})});

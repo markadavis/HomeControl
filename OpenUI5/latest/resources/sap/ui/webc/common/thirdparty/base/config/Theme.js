@@ -1,0 +1,1 @@
+sap.ui.define(["exports","../InitialConfiguration","../theming/applyTheme"],function(e,t,n){"use strict";let i;const r=()=>{if(i===undefined){i=t.getTheme()}return i};const u=async e=>{if(i===e){return}i=e;await n(i)};e.getTheme=r;e.setTheme=u;Object.defineProperty(e,"__esModule",{value:true})});

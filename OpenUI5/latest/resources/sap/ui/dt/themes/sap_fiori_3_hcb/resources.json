@@ -1,0 +1,76 @@
+{
+	"_version": "1.1.0",
+	"resources": [
+		{
+			"name": ".theming",
+			"size": 94,
+			"theme": "sap_fiori_3_hcb"
+		},
+		{
+			"name": "ContextMenu.less",
+			"size": 250,
+			"designtime": true,
+			"theme": "sap_fiori_3_hcb"
+		},
+		{
+			"name": "Overlay.less",
+			"size": 471,
+			"designtime": true,
+			"theme": "sap_fiori_3_hcb"
+		},
+		{
+			"name": "css_variables.css",
+			"size": 1228,
+			"theme": "sap_fiori_3_hcb"
+		},
+		{
+			"name": "css_variables.less",
+			"size": 92166,
+			"designtime": true,
+			"theme": "sap_fiori_3_hcb"
+		},
+		{
+			"name": "css_variables.source.less",
+			"size": 91790,
+			"designtime": true,
+			"theme": "sap_fiori_3_hcb"
+		},
+		{
+			"name": "library-RTL.css",
+			"size": 5704,
+			"theme": "sap_fiori_3_hcb"
+		},
+		{
+			"name": "library-parameters.json",
+			"size": 420,
+			"theme": "sap_fiori_3_hcb"
+		},
+		{
+			"name": "library.css",
+			"size": 5700,
+			"theme": "sap_fiori_3_hcb"
+		},
+		{
+			"name": "library.less",
+			"size": 1363,
+			"designtime": true,
+			"theme": "sap_fiori_3_hcb"
+		},
+		{
+			"name": "library.source.less",
+			"size": 387,
+			"designtime": true,
+			"theme": "sap_fiori_3_hcb"
+		},
+		{
+			"name": "library_skeleton-RTL.css",
+			"size": 5535,
+			"theme": "sap_fiori_3_hcb"
+		},
+		{
+			"name": "library_skeleton.css",
+			"size": 5531,
+			"theme": "sap_fiori_3_hcb"
+		}
+	]
+}

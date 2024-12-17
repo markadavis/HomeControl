@@ -1,0 +1,148 @@
+<mvc:View
+	controllerName="com.davis.homecontrol.controller.Master"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:core="sap.ui.core"
+	xmlns="sap.m"
+	xmlns:semantic="sap.m.semantic">
+
+	<semantic:MasterPage
+		id="page"
+		title="{masterView>/title}"
+		busy="{masterView>/busy}"
+		busyIndicatorDelay="{masterView>/delay}"
+		navButtonPress="onNavBack"
+		showNavButton="false">
+
+		<!-- Master Page Sub-Header -->
+		<semantic:subHeader>
+			<Bar id="headerBar">
+				<contentMiddle>
+					<SearchField
+						id="searchField"
+						showRefreshButton="{= !${device>/support/touch} }"
+						tooltip="{i18n>masterSearchTooltip}"
+						width="100%"
+						search="onSearch">
+					</SearchField>
+				</contentMiddle>
+			</Bar>
+		</semantic:subHeader>
+
+		<!-- Master Page Content -->
+		<semantic:content>
+
+			<!-- Refresh Master List -->
+			<PullToRefresh
+				id="pullToRefresh"
+				visible="{device>/support/touch}"
+				refresh="onRefresh">
+			</PullToRefresh>
+
+			<!-- Master List -->
+			<List
+				id="list"
+				noDataText="{masterView>/noDataText}"
+				mode="SingleSelectMaster"
+				selectionChange="onSelectionChange"
+				items="{
+					path: '/russound/zones',
+					groupHeaderFactory: '.createGroupHeader'
+				}">
+
+				<!-- List Toolbar -->
+				<infoToolbar>
+					<Toolbar
+						active="true"
+						id="filterBar"
+						visible="{masterView>/isFilterBarVisible}"
+						press="onOpenViewSettings">
+						<Title
+							id="filterBarLabel"
+							text="{masterView>/filterBarLabel}" />
+					</Toolbar>
+				</infoToolbar>
+
+				<!-- List Items -->
+				<items>
+						<!-- intro="Controller {controller}, Zone {zone}" -->
+					<ObjectListItem
+						type="Active"
+						icon=""
+						title="{name}"
+						number="{= ${zoneInfo/power} ? 'On' : 'Off' }"
+						numberState="{= ${zoneInfo/power} ? 'Success' : 'Error' }">
+						<!-- numberUnit="{= ${zoneInfo/DoNoDisturb} ? 'DND' : '' } {= ${zoneInfo/sharedSource} ? 'Shared' : '' } {zoneInfo/partyMaster}"> -->
+
+						<ObjectAttribute text="{
+							path: 'zoneInfo/source',
+							formatter: '.listItemFormatters.source'
+						}" />
+
+						<firstStatus>
+							<ObjectStatus
+								text="{
+									path: 'zoneInfo/zoneId',
+									formatter: '.listItemFormatters.status'
+								}" />
+						</firstStatus>
+
+					</ObjectListItem>
+				</items>
+
+			</List>
+		</semantic:content>
+
+		<!-- All Off button -->
+		<semantic:negativeAction>
+			<semantic:NegativeAction
+				text="All Off"
+				press="onAllOff" />
+		</semantic:negativeAction>
+
+		<!-- Zone Sorting -->
+		<semantic:sort>
+			<semantic:SortSelect
+				id="sort"
+				selectedKey="{masterView>/sortBy}"
+				change="onSort">
+				<core:Item
+					id="masterSortx"
+					key="None"
+					text="{i18n>masterSortx}"/>
+				<core:Item
+					id="masterSort1"
+					key="name"
+					text="{i18n>masterSort1}"/>
+				<core:Item
+					id="masterSort2"
+					key="zoneInfo/power"
+					text="{i18n>masterSort2}"/>
+			</semantic:SortSelect>
+		</semantic:sort>
+
+		<!-- Zone Filtering -->
+		<semantic:filter>
+			<semantic:FilterAction
+				id="filter"
+				press="onOpenViewSettings" />
+		</semantic:filter>
+
+		<!-- Zone Groupint -->
+		<semantic:group>
+			<semantic:GroupSelect
+				id="group"
+				selectedKey="{masterView>/groupBy}"
+				change="onGroup">
+				<core:Item
+					id="masterGroupNone"
+					key="None"
+					text="{i18n>masterGroupNone}"/>
+				<core:Item
+					id="masterGroup1"
+					key="controller"
+					text="{i18n>masterGroup1}"/>
+			</semantic:GroupSelect>
+		</semantic:group>
+
+	</semantic:MasterPage>
+</mvc:View>

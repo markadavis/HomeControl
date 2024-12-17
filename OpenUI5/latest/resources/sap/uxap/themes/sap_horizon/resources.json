@@ -1,0 +1,112 @@
+{
+	"_version": "1.1.0",
+	"resources": [
+		{
+			"name": ".theming",
+			"size": 90,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "AnchorBar.less",
+			"size": 12318,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "HierarchicalSelect.less",
+			"size": 5608,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "IconTabBar.less",
+			"size": 398,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "ObjectPageHeader.less",
+			"size": 4481,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "ObjectPageHeaderContent.less",
+			"size": 3634,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "ObjectPageLayout.less",
+			"size": 3135,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "ObjectPageSection.less",
+			"size": 2405,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "ObjectPageSubSection.less",
+			"size": 2663,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "css_variables.css",
+			"size": 1552,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "css_variables.less",
+			"size": 95008,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "css_variables.source.less",
+			"size": 94646,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "library-RTL.css",
+			"size": 83918,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "library-parameters.json",
+			"size": 558,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "library.css",
+			"size": 83908,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "library.less",
+			"size": 35725,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "library.source.less",
+			"size": 586,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "library_skeleton-RTL.css",
+			"size": 86713,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "library_skeleton.css",
+			"size": 86703,
+			"theme": "sap_horizon"
+		}
+	]
+}

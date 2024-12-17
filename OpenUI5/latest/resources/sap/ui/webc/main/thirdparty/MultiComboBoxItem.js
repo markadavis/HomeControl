@@ -1,0 +1,1 @@
+sap.ui.define(["./ComboBoxItem"],function(e){"use strict";const t={tag:"ui5-mcb-item",properties:{selected:{type:Boolean},stableDomRef:{type:String}}};class s extends e{static get metadata(){return t}}s.define();return s});

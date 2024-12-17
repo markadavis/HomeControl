@@ -1,0 +1,23 @@
+
+.detailTunerWindowText {
+	font-size: 2rem !important; 
+}
+.detailTunerWindow {
+	width: 15rem !important;
+	height: 3.25rem !important;
+	margin: .5rem .5rem .5rem .5rem !important;
+	border-style: solid !important;
+    border-width: 1px !important;
+	text-align: center !important;
+}
+section .sapMPanelContent {
+	padding: .4rem 0rem 0rem 0rem !important;
+}
+
+.detailTunerKeypadLastRow {
+	margin-bottom: .5rem;
+}
+
+.detailTunerButtons {
+	margin: 0px 8px 0px 8px !important;
+}

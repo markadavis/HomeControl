@@ -1,0 +1,1 @@
+sap.ui.define(["sap/ui/webc/common/thirdparty/base/renderer/LitRenderer"],function(e){"use strict";const r=(r,i,t)=>e.html`<tr class="ui5-table-group-row-root" part="group-row" role="row" aria-label=${e.ifDefined(r.ariaLabelText)} tabindex="${e.ifDefined(r._tabIndex)}" dir="${e.ifDefined(r.effectiveDir)}"><td colspan=${e.ifDefined(r.colSpan)}><slot></slot></td></tr>`;return r});

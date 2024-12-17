@@ -1,0 +1,1 @@
+sap.ui.define(function(){"use strict";const r=r=>{if(Array.isArray(r)){return n(r.filter(r=>!!r)).join(" ")}return r};const n=r=>r.reduce((r,t)=>r.concat(Array.isArray(t)?n(t):t),[]);return r});

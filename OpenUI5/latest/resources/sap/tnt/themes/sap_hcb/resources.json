@@ -1,0 +1,70 @@
+{
+	"_version": "1.1.0",
+	"resources": [
+		{
+			"name": ".theming",
+			"size": 128,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "NavigationList.less",
+			"size": 300,
+			"designtime": true,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "css_variables.css",
+			"size": 3380,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "css_variables.less",
+			"size": 85177,
+			"designtime": true,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "css_variables.source.less",
+			"size": 84880,
+			"designtime": true,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "library-RTL.css",
+			"size": 15388,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "library-parameters.json",
+			"size": 1394,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "library.css",
+			"size": 15383,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "library.less",
+			"size": 724,
+			"designtime": true,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "library.source.less",
+			"size": 284,
+			"designtime": true,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "library_skeleton-RTL.css",
+			"size": 16223,
+			"theme": "sap_hcb"
+		},
+		{
+			"name": "library_skeleton.css",
+			"size": 16218,
+			"theme": "sap_hcb"
+		}
+	]
+}

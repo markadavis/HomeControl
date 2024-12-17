@@ -1,0 +1,443 @@
+<mvc:View
+	controllerName="com.davis.homecontrol.controller.Detail"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:semantic="sap.m.semantic">
+
+	<semantic:DetailPage
+		id="page"
+		showFooter="false"
+		busy="{detailView>/busy}"
+		busyIndicatorDelay="{detailView>/delay}"
+		title="{detailView>/title}"
+		showNavButton="true"
+		navButtonPress="onNavBack">
+
+		<!-- Detail Page Content -->
+		<semantic:content>
+
+			<!-- Power / Mute -->
+			<Panel>
+				<HBox
+					fitContainer="true"
+					alignItems="Stretch">
+					<items>
+						<!-- Zone Power Switch -->
+						<VBox
+							fitContainer="true"
+							alignItems="Center">
+							<layoutData>
+								<FlexItemData growFactor="2"/>
+							</layoutData>
+							<Label
+								text="{i18n>detailLabelZonePower}">
+							</Label>
+							<Switch
+								id="powerSwitch"
+								name="power"
+								state="{zoneInfo/power}"
+								change="onSwitchChange">
+							</Switch>
+						</VBox>
+
+						<!-- Zone Mute / Un-Mute Button -->
+						<VBox
+							fitContainer="true"
+							alignItems="Center"
+							visible="{zoneInfo/power}">
+							<layoutData>
+								<FlexItemData growFactor="1"/>
+							</layoutData>
+							<Label
+								text="{i18n>detailLabelZoneMute}">
+							</Label>
+							<Button
+								type="Reject"
+								icon="sap-icon://sound-off"
+								text="{i18n>detailZoneMuteButton}"
+								press="onMute">
+							</Button>
+						</VBox>
+					</items>
+				</HBox>
+			</Panel>
+
+			<!-- Volume Slider -->
+			<Panel
+				visible="{zoneInfo/power}">
+				<content>
+					<Label
+						class="sapUiMediumMarginBegin"
+						text="{i18n>detailLabelVolume}">
+						<layoutData>
+							<FlexItemData growFactor="1" />
+						</layoutData>
+					</Label>
+					<!-- enableTickmarks="true" -->
+					<Slider
+						id="volumeSlider"
+						name="volume"
+						width="100%"
+						min="0"
+						max="30"
+						progress="true"
+						showAdvancedTooltip="true"
+						value="{zoneInfo/volume}"
+						change="onSliderChange">
+						<layoutData>
+							<FlexItemData growFactor="11" />
+						</layoutData>
+					</Slider>
+				</content>
+			</Panel>
+
+			<!-- Source Selector (Icon Tab Bar) -->
+			<IconTabBar
+				id="iconTabBar"
+				class="sapUiResponsiveContentPadding"
+				headerBackgroundDesign="Transparent"
+				expandable="false"
+				showOverflowSelectList="false"
+				visible="{zoneInfo/power}"
+				select="onTabSelect"
+				items="{
+					path: 'detailView>/tabConfigs'
+				}">
+				<items>
+					<IconTabFilter
+						key="{detailView>id}"
+						text="{detailView>text}"
+						icon="{detailView>icon}" />
+				</items>
+
+				<content>
+
+					<!-- Tuner Numberic Keypad -->
+					<VBox
+						id="detailRadioTuner"
+						fitContainer="true"
+						alignItems="Stretch"
+						visible="{= ${appView>/selectedZone/selectedSource/sourceInfo/sourceId} === '1' ? true : false }">
+						<items>
+
+							<!-- Tuner Readout Window -->
+							<FlexBox
+								alignItems="Center"
+								justifyContent="Center">
+								<items>
+									<!-- <Button type="Transparent" enabled="false" class="detailTunerButtons" /> -->
+									<Panel id="detailTunnerViewport"
+										class="detailTunerWindow"
+										visible="true">
+										<Label
+											id="detailTunnerViewportLabel"
+											visible="true"
+											class="detailTunerWindowText"
+											text="{appView>/selectedZone/selectedSource/sourceInfo/tunerFrequency}"/>
+									</Panel>
+									<Input
+										id="detailTunnerViewportInput"
+										visible="false"
+										type="Number"
+										maxLength="5"
+										showClearIcon="true"
+										showValueHelp="true"
+										valueHelpIconSrc="sap-icon://accept"
+										valueHelpRequest="onTunnerValueChange"
+										submit="onTunnerValueChange"
+										value="{detailView>/tunerFrequencyChange}"/>
+									<!-- <Button type="Transparent" enabled="false" class="detailTunerButtons" /> -->
+								</items>
+							</FlexBox>
+
+							<!-- Tuner Numeric Keypad - 1st row of buttons -->
+							<!-- <FlexBox
+								alignItems="Center"
+								justifyContent="Center">
+								<items>
+									<Button type="Transparent" enabled="false" class="detailTunerButtons" />
+									<Button id="numeric1" text="1" type="Default" class="detailTunerButtons" press="onNumberPadPress" />
+									<Button id="numeric2" text="2" type="Default" class="detailTunerButtons" press="onNumberPadPress" />
+									<Button id="numeric3" text="3" type="Default" class="detailTunerButtons" press="onNumberPadPress" />
+									<Button type="Transparent" enabled="false" class="detailTunerButtons" />
+								</items>
+							</FlexBox> -->
+
+							<!-- Tuner Numeric Keypad - 2nd row of buttons -->
+							<!-- <FlexBox
+								alignItems="Center"
+								justifyContent="Center">
+								<items>
+									<Button type="Transparent" enabled="false" class="detailTunerButtons" />
+									<Button id="numeric4" text="4" type="Default" class="detailTunerButtons" press="onNumberPadPress" />
+									<Button id="numeric5" text="5" type="Default" class="detailTunerButtons" press="onNumberPadPress" />
+									<Button id="numeric6" text="6" type="Default" class="detailTunerButtons" press="onNumberPadPress" />
+									<Button type="Transparent" enabled="false" class="detailTunerButtons" />
+								</items>
+							</FlexBox> -->
+
+							<!-- Tuner Numeric Keypad - 3rd row of buttons -->
+							<!-- <FlexBox
+								alignItems="Center"
+								justifyContent="Center">
+								<items>
+									<Button type="Transparent" enabled="false" class="detailTunerButtons" />
+									<Button id="numeric7" text="7" type="Default" class="detailTunerButtons" press="onNumberPadPress" />
+									<Button id="numeric8" text="8" type="Default" class="detailTunerButtons" press="onNumberPadPress" />
+									<Button id="numeric9" text="9" type="Default" class="detailTunerButtons" press="onNumberPadPress" />
+									<Button type="Transparent" enabled="false" class="detailTunerButtons" />
+								</items>
+							</FlexBox> -->
+
+							<!-- Tuner Numeric Keypad - 4th row of buttons -->
+							<!-- <FlexBox
+								alignItems="Center"
+								justifyContent="Center"
+								class="detailTunerKeypadLastRow">
+								<items>
+									<Button type="Transparent" enabled="false" class="detailTunerButtons" />
+									<Button id="numericX" icon="sap-icon://accept" type="Default" class="detailTunerButtons" press="onNumberPadPress" />
+									<Button id="numeric0" text="0" type="Default" class="detailTunerButtons" press="onNumberPadPress" />
+									<Button id="numericMute" icon="sap-icon://sound-off" type="Default" class="detailTunerButtons" press="onNumberPadPress" />
+									<Button type="Transparent" enabled="false" class="detailTunerButtons" />
+								</items>
+							</FlexBox> -->
+						</items>
+					</VBox>
+
+					<!-- App Launcher Section -->
+					<VBox
+						id="detailAppLauncher"
+						fitContainer="true"
+						alignItems="Stretch"
+						visible="false">
+						<items>
+							<FlexBox
+								alignItems="Center"
+								justifyContent="Center">
+								<items>
+									<Button
+										id="detailSourceRemoteBtn"
+										type="Emphasized"
+										icon="sap-icon://action"
+										text="Launch App"
+										press= "onLaunchApp" />
+								</items>
+							</FlexBox>
+						</items>
+					</VBox>
+
+					<!-- Keypad (aka wall panel) -->
+					<VBox
+						id="detailWallKeypad"
+						visible="false"
+						fitContainer="true"
+						alignItems="Stretch">
+						<items>
+							<FlexBox
+								alignItems="Center"
+								justifyContent="Center">
+								<items>
+									<Button type="Transparent" enabled="false" class="sapUiSmallMarginEnd" />
+									<Button id="kepadF1" text="1" type="Default" class="sapUiSmallMarginEnd" press="onKeypadPress" />
+									<Button id="kepadF2" text="2" type="Default" class="sapUiSmallMarginEnd" press="onKeypadPress" />
+									<Button type="Transparent" enabled="false" class="sapUiSmallMarginEnd" />
+									<Button id="kepadUp" icon="sap-icon://navigation-up-arrow" type="Default" class="sapUiSmallMarginEnd" press="onKeypadPress" />
+									<Button type="Transparent" enabled="false" class="sapUiSmallMarginEnd" />
+									<Button type="Transparent" enabled="false" class="sapUiSmallMarginEnd" />
+								</items>
+							</FlexBox>
+							<FlexBox
+								alignItems="Center"
+								justifyContent="Center">
+								<items>
+									<Button type="Transparent" enabled="false" class="sapUiSmallMarginEnd" />
+									<Button id="kepadPause" icon="sap-icon://media-pause" type="Default" class="sapUiSmallMarginEnd" press="onKeypadPress" />
+									<Button type="Transparent" enabled="false" class="sapUiSmallMarginEnd" />
+									<Button id="kepadLeft" icon="sap-icon://navigation-left-arrow" type="Default" class="sapUiSmallMarginEnd" press="onKeypadPress" />
+									<Button id="kepadPlay" icon="sap-icon://media-play" type="Default" class="sapUiSmallMarginEnd" press="onKeypadPress" />
+									<Button id="kepadRight" icon="sap-icon://navigation-right-arrow" type="Default" class="sapUiSmallMarginEnd" press="onKeypadPress" />
+									<Button type="Transparent" enabled="false" class="sapUiSmallMarginEnd" />
+								</items>
+							</FlexBox>
+							<FlexBox
+								alignItems="Center"
+								justifyContent="Center">
+								<items>
+									<Button type="Transparent" enabled="false" class="sapUiSmallMarginEnd" />
+									<Button id="kepadStop" icon="sap-icon://status-completed" type="Default" class="sapUiSmallMarginEnd" press="onKeypadPress" />
+									<Button type="Transparent" enabled="false" class="sapUiSmallMarginEnd" />
+									<Button type="Transparent" enabled="false" class="sapUiSmallMarginEnd" />
+									<Button id="kepadDown" icon="sap-icon://navigation-down-arrow" type="Default" class="sapUiSmallMarginEnd" press="onKeypadPress" />
+									<Button type="Transparent" enabled="false" class="sapUiSmallMarginEnd" />
+									<Button type="Transparent" enabled="false" class="sapUiSmallMarginEnd" />
+								</items>
+							</FlexBox>
+						</items>
+					</VBox>
+
+				</content>
+			</IconTabBar>
+
+			<!-- Audio Controls (Balance, Bass, Treble, Loudness,...) -->
+			<Panel
+				id="detailAudioControlPanel"
+				visible="{zoneInfo/power}"
+				expandable="true"
+				expanded="{= ${device>/system/phone} ? true : true }"
+				headerText="{i18n>detailLabelAudioControls}">
+
+				<!-- Audio Control Panel Header -->
+				<headerToolbar>
+					<Toolbar>
+						<Title
+							level="H1"
+							text="{i18n>detailLabelAudioControls}"/>
+					</Toolbar>
+				</headerToolbar>
+
+				<!-- Balance Slider -->
+				<Panel
+					visible="{zoneInfo/power}">
+					<Label
+						class="sapUiMediumMarginBegin"
+						text="{i18n>detailLabelBalance}">
+						<layoutData>
+							<FlexItemData growFactor="1" />
+						</layoutData>
+					</Label>
+					<Slider
+						id="balanceSlider"
+						name="balance"
+						width="100%"
+						min="1"
+						max="20"
+						progress="false"
+						showAdvancedTooltip="true"
+						value="{zoneInfo/balance}"
+						change="onSliderChange">
+						<layoutData>
+							<FlexItemData growFactor="11" />
+						</layoutData>
+					</Slider>
+				</Panel>
+
+				<!-- Base Slider -->
+				<Panel>
+					<Label
+						class="sapUiMediumMarginBegin"
+						text="{i18n>detailLabelBass}">
+						<layoutData>
+							<FlexItemData growFactor="1" />
+						</layoutData>
+					</Label>
+					<Slider
+						id="bassSlider"
+						name="bass"
+						width="100%"
+						min="0"
+						max="20"
+						progress="true"
+						showAdvancedTooltip="true"
+						value="{zoneInfo/bass}"
+						change="onSliderChange">
+						<layoutData>
+							<FlexItemData growFactor="11" />
+						</layoutData>
+					</Slider>
+				</Panel>
+
+				<!-- Treble Slider -->
+				<Panel>
+					<Label
+						class="sapUiMediumMarginBegin"
+						text="{i18n>detailLabelTreble}">
+						<layoutData>
+							<FlexItemData growFactor="1" />
+						</layoutData>
+					</Label>
+					<Slider
+						id="trebleSlider"
+						name="treble"
+						width="100%"
+						min="0"
+						max="20"
+						progress="true"
+						showAdvancedTooltip="true"
+						value="{zoneInfo/treble}"
+						change="onSliderChange">
+						<layoutData>
+							<FlexItemData growFactor="6" />
+						</layoutData>
+					</Slider>
+				</Panel>
+
+				<!-- Loudness / DnD / Party Switches -->
+				<Panel>
+					<HBox
+						fitContainer="true"
+						alignItems="Stretch">
+						<items>
+
+							<!-- Loudness Switch -->
+							<VBox
+								fitContainer="true"
+								alignItems="Center">
+								<layoutData>
+									<FlexItemData growFactor="2" />
+								</layoutData>
+								<Label
+									text="{i18n>detailLabelLoudness}">
+								</Label>
+								<Switch
+									id="loudnessSwitch"
+									name="loudness"
+									state="{zoneInfo/loudness}"
+									change="onSwitchChange">
+								</Switch>
+							</VBox>
+
+							<!-- Do Not Disturb Switch -->
+							<VBox
+								fitContainer="true"
+								alignItems="Center">
+								<layoutData>
+									<FlexItemData growFactor="2" />
+								</layoutData>
+								<Label
+									text="{i18n>detailLabelDND}">
+								</Label>
+								<Switch
+									id="doNotDisturbSwitch"
+									name="doNotDisturb"
+									state="{zoneInfo/DoNoDisturb}"
+									change="onSwitchChange">
+								</Switch>
+							</VBox>
+
+							<!-- Party Mode Switch -->
+							<VBox
+								fitContainer="true"
+								alignItems="Center">
+								<layoutData>
+									<FlexItemData growFactor="1" />
+								</layoutData>
+								<Label
+									text="{i18n>detailLabelPartyMode}"
+									width="100%">
+								</Label>
+								<Switch
+									id="partyModeSwitch"
+									name="partyMode"
+									state="{zoneInfo/partyMode}"
+									change="onSwitchChange">
+								</Switch>
+							</VBox>
+						</items>
+					</HBox>
+				</Panel>
+			</Panel>
+
+		</semantic:content>
+	</semantic:DetailPage>
+</mvc:View>

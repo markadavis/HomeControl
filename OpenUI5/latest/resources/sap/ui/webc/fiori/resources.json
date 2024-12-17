@@ -1,0 +1,4006 @@
+{
+	"_version": "1.1.0",
+	"resources": [
+		{
+			"name": ".library",
+			"size": 1913
+		},
+		{
+			"name": ".theming",
+			"size": 99
+		},
+		{
+			"name": "Bar-dbg.js",
+			"module": "sap/ui/webc/fiori/Bar.js",
+			"size": 3645,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/WebComponent.js",
+				"sap/ui/webc/fiori/library.js",
+				"sap/ui/webc/fiori/thirdparty/Bar.js"
+			]
+		},
+		{
+			"name": "Bar.js",
+			"module": "sap/ui/webc/fiori/Bar.js",
+			"size": 778,
+			"required": [
+				"sap/ui/webc/common/WebComponent.js",
+				"sap/ui/webc/fiori/library.js",
+				"sap/ui/webc/fiori/thirdparty/Bar.js"
+			]
+		},
+		{
+			"name": "BarcodeScannerDialog-dbg.js",
+			"module": "sap/ui/webc/fiori/BarcodeScannerDialog.js",
+			"size": 2862,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/WebComponent.js",
+				"sap/ui/webc/fiori/library.js",
+				"sap/ui/webc/fiori/thirdparty/BarcodeScannerDialog.js"
+			]
+		},
+		{
+			"name": "BarcodeScannerDialog.js",
+			"module": "sap/ui/webc/fiori/BarcodeScannerDialog.js",
+			"size": 578,
+			"required": [
+				"sap/ui/webc/common/WebComponent.js",
+				"sap/ui/webc/fiori/library.js",
+				"sap/ui/webc/fiori/thirdparty/BarcodeScannerDialog.js"
+			]
+		},
+		{
+			"name": "FlexibleColumnLayout-dbg.js",
+			"module": "sap/ui/webc/fiori/FlexibleColumnLayout.js",
+			"size": 8180,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/WebComponent.js",
+				"sap/ui/webc/fiori/library.js",
+				"sap/ui/webc/fiori/thirdparty/FlexibleColumnLayout.js"
+			]
+		},
+		{
+			"name": "FlexibleColumnLayout.js",
+			"module": "sap/ui/webc/fiori/FlexibleColumnLayout.js",
+			"size": 1339,
+			"required": [
+				"sap/ui/webc/common/WebComponent.js",
+				"sap/ui/webc/fiori/library.js",
+				"sap/ui/webc/fiori/thirdparty/FlexibleColumnLayout.js"
+			]
+		},
+		{
+			"name": "IllustratedMessage-dbg.js",
+			"module": "sap/ui/webc/fiori/IllustratedMessage.js",
+			"size": 3559,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/WebComponent.js",
+				"sap/ui/webc/fiori/library.js",
+				"sap/ui/webc/fiori/thirdparty/IllustratedMessage.js"
+			]
+		},
+		{
+			"name": "IllustratedMessage.js",
+			"module": "sap/ui/webc/fiori/IllustratedMessage.js",
+			"size": 800,
+			"required": [
+				"sap/ui/webc/common/WebComponent.js",
+				"sap/ui/webc/fiori/library.js",
+				"sap/ui/webc/fiori/thirdparty/IllustratedMessage.js"
+			]
+		},
+		{
+			"name": "NotificationAction-dbg.js",
+			"module": "sap/ui/webc/fiori/NotificationAction.js",
+			"size": 2979,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/WebComponent.js",
+				"sap/ui/webc/fiori/library.js",
+				"sap/ui/webc/fiori/thirdparty/NotificationAction.js",
+				"sap/ui/webc/main/library.js"
+			]
+		},
+		{
+			"name": "NotificationAction.js",
+			"module": "sap/ui/webc/fiori/NotificationAction.js",
+			"size": 723,
+			"required": [
+				"sap/ui/webc/common/WebComponent.js",
+				"sap/ui/webc/fiori/library.js",
+				"sap/ui/webc/fiori/thirdparty/NotificationAction.js",
+				"sap/ui/webc/main/library.js"
+			]
+		},
+		{
+			"name": "NotificationListGroupItem-dbg.js",
+			"module": "sap/ui/webc/fiori/NotificationListGroupItem.js",
+			"size": 5217,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/WebComponent.js",
+				"sap/ui/webc/fiori/library.js",
+				"sap/ui/webc/fiori/thirdparty/NotificationListGroupItem.js",
+				"sap/ui/webc/main/library.js"
+			]
+		},
+		{
+			"name": "NotificationListGroupItem.js",
+			"module": "sap/ui/webc/fiori/NotificationListGroupItem.js",
+			"size": 1149,
+			"required": [
+				"sap/ui/webc/common/WebComponent.js",
+				"sap/ui/webc/fiori/library.js",
+				"sap/ui/webc/fiori/thirdparty/NotificationListGroupItem.js",
+				"sap/ui/webc/main/library.js"
+			]
+		},
+		{
+			"name": "NotificationListItem-dbg.js",
+			"module": "sap/ui/webc/fiori/NotificationListItem.js",
+			"size": 6157,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/WebComponent.js",
+				"sap/ui/webc/fiori/library.js",
+				"sap/ui/webc/fiori/thirdparty/NotificationListItem.js",
+				"sap/ui/webc/main/library.js"
+			]
+		},
+		{
+			"name": "NotificationListItem.js",
+			"module": "sap/ui/webc/fiori/NotificationListItem.js",
+			"size": 1261,
+			"required": [
+				"sap/ui/webc/common/WebComponent.js",
+				"sap/ui/webc/fiori/library.js",
+				"sap/ui/webc/fiori/thirdparty/NotificationListItem.js",
+				"sap/ui/webc/main/library.js"
+			]
+		},
+		{
+			"name": "Page-dbg.js",
+			"module": "sap/ui/webc/fiori/Page.js",
+			"size": 4313,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/WebComponent.js",
+				"sap/ui/webc/fiori/library.js",
+				"sap/ui/webc/fiori/thirdparty/Page.js"
+			]
+		},
+		{
+			"name": "Page.js",
+			"module": "sap/ui/webc/fiori/Page.js",
+			"size": 1012,
+			"required": [
+				"sap/ui/webc/common/WebComponent.js",
+				"sap/ui/webc/fiori/library.js",
+				"sap/ui/webc/fiori/thirdparty/Page.js"
+			]
+		},
+		{
+			"name": "ProductSwitch-dbg.js",
+			"module": "sap/ui/webc/fiori/ProductSwitch.js",
+			"size": 2184,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/WebComponent.js",
+				"sap/ui/webc/fiori/library.js",
+				"sap/ui/webc/fiori/thirdparty/ProductSwitch.js"
+			]
+		},
+		{
+			"name": "ProductSwitch.js",
+			"module": "sap/ui/webc/fiori/ProductSwitch.js",
+			"size": 508,
+			"required": [
+				"sap/ui/webc/common/WebComponent.js",
+				"sap/ui/webc/fiori/library.js",
+				"sap/ui/webc/fiori/thirdparty/ProductSwitch.js"
+			]
+		},
+		{
+			"name": "ProductSwitchItem-dbg.js",
+			"module": "sap/ui/webc/fiori/ProductSwitchItem.js",
+			"size": 3624,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/WebComponent.js",
+				"sap/ui/webc/fiori/library.js",
+				"sap/ui/webc/fiori/thirdparty/ProductSwitchItem.js"
+			]
+		},
+		{
+			"name": "ProductSwitchItem.js",
+			"module": "sap/ui/webc/fiori/ProductSwitchItem.js",
+			"size": 719,
+			"required": [
+				"sap/ui/webc/common/WebComponent.js",
+				"sap/ui/webc/fiori/library.js",
+				"sap/ui/webc/fiori/thirdparty/ProductSwitchItem.js"
+			]
+		},
+		{
+			"name": "ShellBar-dbg.js",
+			"module": "sap/ui/webc/fiori/ShellBar.js",
+			"size": 7911,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/WebComponent.js",
+				"sap/ui/webc/fiori/library.js",
+				"sap/ui/webc/fiori/thirdparty/ShellBar.js"
+			]
+		},
+		{
+			"name": "ShellBar.js",
+			"module": "sap/ui/webc/fiori/ShellBar.js",
+			"size": 1617,
+			"required": [
+				"sap/ui/webc/common/WebComponent.js",
+				"sap/ui/webc/fiori/library.js",
+				"sap/ui/webc/fiori/thirdparty/ShellBar.js"
+			]
+		},
+		{
+			"name": "ShellBarItem-dbg.js",
+			"module": "sap/ui/webc/fiori/ShellBarItem.js",
+			"size": 1952,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/WebComponent.js",
+				"sap/ui/webc/fiori/library.js",
+				"sap/ui/webc/fiori/thirdparty/ShellBarItem.js"
+			]
+		},
+		{
+			"name": "ShellBarItem.js",
+			"module": "sap/ui/webc/fiori/ShellBarItem.js",
+			"size": 659,
+			"required": [
+				"sap/ui/webc/common/WebComponent.js",
+				"sap/ui/webc/fiori/library.js",
+				"sap/ui/webc/fiori/thirdparty/ShellBarItem.js"
+			]
+		},
+		{
+			"name": "SideNavigation-dbg.js",
+			"module": "sap/ui/webc/fiori/SideNavigation.js",
+			"size": 4184,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/WebComponent.js",
+				"sap/ui/webc/fiori/library.js",
+				"sap/ui/webc/fiori/thirdparty/SideNavigation.js"
+			]
+		},
+		{
+			"name": "SideNavigation.js",
+			"module": "sap/ui/webc/fiori/SideNavigation.js",
+			"size": 791,
+			"required": [
+				"sap/ui/webc/common/WebComponent.js",
+				"sap/ui/webc/fiori/library.js",
+				"sap/ui/webc/fiori/thirdparty/SideNavigation.js"
+			]
+		},
+		{
+			"name": "SideNavigationItem-dbg.js",
+			"module": "sap/ui/webc/fiori/SideNavigationItem.js",
+			"size": 3179,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/WebComponent.js",
+				"sap/ui/webc/fiori/library.js",
+				"sap/ui/webc/fiori/thirdparty/SideNavigationItem.js"
+			]
+		},
+		{
+			"name": "SideNavigationItem.js",
+			"module": "sap/ui/webc/fiori/SideNavigationItem.js",
+			"size": 814,
+			"required": [
+				"sap/ui/webc/common/WebComponent.js",
+				"sap/ui/webc/fiori/library.js",
+				"sap/ui/webc/fiori/thirdparty/SideNavigationItem.js"
+			]
+		},
+		{
+			"name": "SideNavigationSubItem-dbg.js",
+			"module": "sap/ui/webc/fiori/SideNavigationSubItem.js",
+			"size": 2259,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/WebComponent.js",
+				"sap/ui/webc/fiori/library.js",
+				"sap/ui/webc/fiori/thirdparty/SideNavigationSubItem.js"
+			]
+		},
+		{
+			"name": "SideNavigationSubItem.js",
+			"module": "sap/ui/webc/fiori/SideNavigationSubItem.js",
+			"size": 614,
+			"required": [
+				"sap/ui/webc/common/WebComponent.js",
+				"sap/ui/webc/fiori/library.js",
+				"sap/ui/webc/fiori/thirdparty/SideNavigationSubItem.js"
+			]
+		},
+		{
+			"name": "Timeline-dbg.js",
+			"module": "sap/ui/webc/fiori/Timeline.js",
+			"size": 2701,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/WebComponent.js",
+				"sap/ui/webc/fiori/library.js",
+				"sap/ui/webc/fiori/thirdparty/Timeline.js"
+			]
+		},
+		{
+			"name": "Timeline.js",
+			"module": "sap/ui/webc/fiori/Timeline.js",
+			"size": 735,
+			"required": [
+				"sap/ui/webc/common/WebComponent.js",
+				"sap/ui/webc/fiori/library.js",
+				"sap/ui/webc/fiori/thirdparty/Timeline.js"
+			]
+		},
+		{
+			"name": "TimelineItem-dbg.js",
+			"module": "sap/ui/webc/fiori/TimelineItem.js",
+			"size": 2987,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/WebComponent.js",
+				"sap/ui/webc/fiori/library.js",
+				"sap/ui/webc/fiori/thirdparty/TimelineItem.js"
+			]
+		},
+		{
+			"name": "TimelineItem.js",
+			"module": "sap/ui/webc/fiori/TimelineItem.js",
+			"size": 798,
+			"required": [
+				"sap/ui/webc/common/WebComponent.js",
+				"sap/ui/webc/fiori/library.js",
+				"sap/ui/webc/fiori/thirdparty/TimelineItem.js"
+			]
+		},
+		{
+			"name": "UploadCollection-dbg.js",
+			"module": "sap/ui/webc/fiori/UploadCollection.js",
+			"size": 4936,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/WebComponent.js",
+				"sap/ui/webc/fiori/library.js",
+				"sap/ui/webc/fiori/thirdparty/UploadCollection.js",
+				"sap/ui/webc/main/library.js"
+			]
+		},
+		{
+			"name": "UploadCollection.js",
+			"module": "sap/ui/webc/fiori/UploadCollection.js",
+			"size": 1163,
+			"required": [
+				"sap/ui/webc/common/WebComponent.js",
+				"sap/ui/webc/fiori/library.js",
+				"sap/ui/webc/fiori/thirdparty/UploadCollection.js",
+				"sap/ui/webc/main/library.js"
+			]
+		},
+		{
+			"name": "UploadCollectionItem-dbg.js",
+			"module": "sap/ui/webc/fiori/UploadCollectionItem.js",
+			"size": 4956,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/WebComponent.js",
+				"sap/ui/webc/fiori/library.js",
+				"sap/ui/webc/fiori/thirdparty/UploadCollectionItem.js"
+			]
+		},
+		{
+			"name": "UploadCollectionItem.js",
+			"module": "sap/ui/webc/fiori/UploadCollectionItem.js",
+			"size": 1193,
+			"required": [
+				"sap/ui/webc/common/WebComponent.js",
+				"sap/ui/webc/fiori/library.js",
+				"sap/ui/webc/fiori/thirdparty/UploadCollectionItem.js"
+			]
+		},
+		{
+			"name": "ViewSettingsDialog-dbg.js",
+			"module": "sap/ui/webc/fiori/ViewSettingsDialog.js",
+			"size": 3447,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/WebComponent.js",
+				"sap/ui/webc/fiori/library.js",
+				"sap/ui/webc/fiori/thirdparty/ViewSettingsDialog.js"
+			]
+		},
+		{
+			"name": "ViewSettingsDialog.js",
+			"module": "sap/ui/webc/fiori/ViewSettingsDialog.js",
+			"size": 741,
+			"required": [
+				"sap/ui/webc/common/WebComponent.js",
+				"sap/ui/webc/fiori/library.js",
+				"sap/ui/webc/fiori/thirdparty/ViewSettingsDialog.js"
+			]
+		},
+		{
+			"name": "Wizard-dbg.js",
+			"module": "sap/ui/webc/fiori/Wizard.js",
+			"size": 5584,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/WebComponent.js",
+				"sap/ui/webc/fiori/library.js",
+				"sap/ui/webc/fiori/thirdparty/Wizard.js"
+			]
+		},
+		{
+			"name": "Wizard.js",
+			"module": "sap/ui/webc/fiori/Wizard.js",
+			"size": 744,
+			"required": [
+				"sap/ui/webc/common/WebComponent.js",
+				"sap/ui/webc/fiori/library.js",
+				"sap/ui/webc/fiori/thirdparty/Wizard.js"
+			]
+		},
+		{
+			"name": "WizardStep-dbg.js",
+			"module": "sap/ui/webc/fiori/WizardStep.js",
+			"size": 5220,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/WebComponent.js",
+				"sap/ui/webc/fiori/library.js",
+				"sap/ui/webc/fiori/thirdparty/WizardStep.js"
+			]
+		},
+		{
+			"name": "WizardStep.js",
+			"module": "sap/ui/webc/fiori/WizardStep.js",
+			"size": 901,
+			"required": [
+				"sap/ui/webc/common/WebComponent.js",
+				"sap/ui/webc/fiori/library.js",
+				"sap/ui/webc/fiori/thirdparty/WizardStep.js"
+			]
+		},
+		{
+			"name": "library-dbg.js",
+			"module": "sap/ui/webc/fiori/library.js",
+			"size": 13880,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/library.js",
+				"sap/ui/webc/fiori/thirdparty/Assets.js"
+			]
+		},
+		{
+			"name": "library-preload.js",
+			"module": "sap/ui/webc/fiori/library-preload.js",
+			"size": 835674,
+			"merged": true,
+			"required": [
+				"sap/ui/webc/common/WebComponent.js",
+				"sap/ui/webc/common/library.js",
+				"sap/ui/webc/common/thirdparty/base/Device.js",
+				"sap/ui/webc/common/thirdparty/base/EventProvider.js",
+				"sap/ui/webc/common/thirdparty/base/FeaturesRegistry.js",
+				"sap/ui/webc/common/thirdparty/base/Keys.js",
+				"sap/ui/webc/common/thirdparty/base/MediaRange.js",
+				"sap/ui/webc/common/thirdparty/base/Render.js",
+				"sap/ui/webc/common/thirdparty/base/UI5Element.js",
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Illustrations.js",
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Themes.js",
+				"sap/ui/webc/common/thirdparty/base/asset-registries/i18n.js",
+				"sap/ui/webc/common/thirdparty/base/config/AnimationMode.js",
+				"sap/ui/webc/common/thirdparty/base/delegate/ItemNavigation.js",
+				"sap/ui/webc/common/thirdparty/base/delegate/ResizeHandler.js",
+				"sap/ui/webc/common/thirdparty/base/i18nBundle.js",
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js",
+				"sap/ui/webc/common/thirdparty/base/types/AnimationMode.js",
+				"sap/ui/webc/common/thirdparty/base/types/DataType.js",
+				"sap/ui/webc/common/thirdparty/base/types/Float.js",
+				"sap/ui/webc/common/thirdparty/base/types/Integer.js",
+				"sap/ui/webc/common/thirdparty/base/types/NavigationMode.js",
+				"sap/ui/webc/common/thirdparty/base/util/FocusableElements.js",
+				"sap/ui/webc/common/thirdparty/base/util/clamp.js",
+				"sap/ui/webc/common/thirdparty/base/util/debounce.js",
+				"sap/ui/webc/common/thirdparty/base/util/getFileExtension.js",
+				"sap/ui/webc/common/thirdparty/icons/bell.js",
+				"sap/ui/webc/common/thirdparty/icons/decline.js",
+				"sap/ui/webc/common/thirdparty/icons/document.js",
+				"sap/ui/webc/common/thirdparty/icons/edit.js",
+				"sap/ui/webc/common/thirdparty/icons/grid.js",
+				"sap/ui/webc/common/thirdparty/icons/message-error.js",
+				"sap/ui/webc/common/thirdparty/icons/message-success.js",
+				"sap/ui/webc/common/thirdparty/icons/message-warning.js",
+				"sap/ui/webc/common/thirdparty/icons/overflow.js",
+				"sap/ui/webc/common/thirdparty/icons/refresh.js",
+				"sap/ui/webc/common/thirdparty/icons/search.js",
+				"sap/ui/webc/common/thirdparty/icons/slim-arrow-left.js",
+				"sap/ui/webc/common/thirdparty/icons/slim-arrow-right.js",
+				"sap/ui/webc/common/thirdparty/icons/stop.js",
+				"sap/ui/webc/common/thirdparty/icons/upload-to-cloud.js",
+				"sap/ui/webc/common/thirdparty/theme-base/generated/themes/sap_fiori_3/parameters-bundle.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/sap_fiori_3/parameters-bundle.css.js",
+				"sap/ui/webc/main/library.js",
+				"sap/ui/webc/main/thirdparty/Assets.js",
+				"sap/ui/webc/main/thirdparty/BusyIndicator.js",
+				"sap/ui/webc/main/thirdparty/Button.js",
+				"sap/ui/webc/main/thirdparty/Dialog.js",
+				"sap/ui/webc/main/thirdparty/GroupHeaderListItem.js",
+				"sap/ui/webc/main/thirdparty/Icon.js",
+				"sap/ui/webc/main/thirdparty/Input.js",
+				"sap/ui/webc/main/thirdparty/Label.js",
+				"sap/ui/webc/main/thirdparty/Link.js",
+				"sap/ui/webc/main/thirdparty/List.js",
+				"sap/ui/webc/main/thirdparty/ListItem.js",
+				"sap/ui/webc/main/thirdparty/ListItemBase.js",
+				"sap/ui/webc/main/thirdparty/Popover.js",
+				"sap/ui/webc/main/thirdparty/ProgressIndicator.js",
+				"sap/ui/webc/main/thirdparty/ResponsivePopover.js",
+				"sap/ui/webc/main/thirdparty/StandardListItem.js",
+				"sap/ui/webc/main/thirdparty/Title.js",
+				"sap/ui/webc/main/thirdparty/Tree.js",
+				"sap/ui/webc/main/thirdparty/TreeItem.js",
+				"sap/ui/webc/main/thirdparty/types/ButtonDesign.js",
+				"sap/ui/webc/main/thirdparty/types/ListItemType.js",
+				"sap/ui/webc/main/thirdparty/types/ListMode.js",
+				"sap/ui/webc/main/thirdparty/types/Priority.js",
+				"sap/ui/webc/main/thirdparty/types/WrappingType.js"
+			],
+			"included": [
+				"sap/ui/webc/fiori/Bar.js",
+				"sap/ui/webc/fiori/BarcodeScannerDialog.js",
+				"sap/ui/webc/fiori/FlexibleColumnLayout.js",
+				"sap/ui/webc/fiori/IllustratedMessage.js",
+				"sap/ui/webc/fiori/NotificationAction.js",
+				"sap/ui/webc/fiori/NotificationListGroupItem.js",
+				"sap/ui/webc/fiori/NotificationListItem.js",
+				"sap/ui/webc/fiori/Page.js",
+				"sap/ui/webc/fiori/ProductSwitch.js",
+				"sap/ui/webc/fiori/ProductSwitchItem.js",
+				"sap/ui/webc/fiori/ShellBar.js",
+				"sap/ui/webc/fiori/ShellBarItem.js",
+				"sap/ui/webc/fiori/SideNavigation.js",
+				"sap/ui/webc/fiori/SideNavigationItem.js",
+				"sap/ui/webc/fiori/SideNavigationSubItem.js",
+				"sap/ui/webc/fiori/Timeline.js",
+				"sap/ui/webc/fiori/TimelineItem.js",
+				"sap/ui/webc/fiori/UploadCollection.js",
+				"sap/ui/webc/fiori/UploadCollectionItem.js",
+				"sap/ui/webc/fiori/ViewSettingsDialog.js",
+				"sap/ui/webc/fiori/Wizard.js",
+				"sap/ui/webc/fiori/WizardStep.js",
+				"sap/ui/webc/fiori/library.js",
+				"sap/ui/webc/fiori/manifest.json",
+				"sap/ui/webc/fiori/thirdparty/Assets.js",
+				"sap/ui/webc/fiori/thirdparty/Bar.js",
+				"sap/ui/webc/fiori/thirdparty/BarcodeScannerDialog.js",
+				"sap/ui/webc/fiori/thirdparty/FlexibleColumnLayout.js",
+				"sap/ui/webc/fiori/thirdparty/IllustratedMessage.js",
+				"sap/ui/webc/fiori/thirdparty/Interfaces.js",
+				"sap/ui/webc/fiori/thirdparty/NotificationAction.js",
+				"sap/ui/webc/fiori/thirdparty/NotificationListGroupItem.js",
+				"sap/ui/webc/fiori/thirdparty/NotificationListItem.js",
+				"sap/ui/webc/fiori/thirdparty/NotificationListItemBase.js",
+				"sap/ui/webc/fiori/thirdparty/Page.js",
+				"sap/ui/webc/fiori/thirdparty/ProductSwitch.js",
+				"sap/ui/webc/fiori/thirdparty/ProductSwitchItem.js",
+				"sap/ui/webc/fiori/thirdparty/ShellBar.js",
+				"sap/ui/webc/fiori/thirdparty/ShellBarItem.js",
+				"sap/ui/webc/fiori/thirdparty/SideNavigation.js",
+				"sap/ui/webc/fiori/thirdparty/SideNavigationItem.js",
+				"sap/ui/webc/fiori/thirdparty/SideNavigationSubItem.js",
+				"sap/ui/webc/fiori/thirdparty/Timeline.js",
+				"sap/ui/webc/fiori/thirdparty/TimelineItem.js",
+				"sap/ui/webc/fiori/thirdparty/UploadCollection.js",
+				"sap/ui/webc/fiori/thirdparty/UploadCollectionItem.js",
+				"sap/ui/webc/fiori/thirdparty/ViewSettingsDialog.js",
+				"sap/ui/webc/fiori/thirdparty/Wizard.js",
+				"sap/ui/webc/fiori/thirdparty/WizardStep.js",
+				"sap/ui/webc/fiori/thirdparty/WizardTab.js",
+				"sap/ui/webc/fiori/thirdparty/fcl-utils/FCLLayout.js",
+				"sap/ui/webc/fiori/thirdparty/features/CoPilotAnimation.js",
+				"sap/ui/webc/fiori/thirdparty/generated/i18n/i18n-defaults.js",
+				"sap/ui/webc/fiori/thirdparty/generated/json-imports/Themes.js",
+				"sap/ui/webc/fiori/thirdparty/generated/json-imports/i18n.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/BarTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/BarcodeScannerDialogTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/FlexibleColumnLayoutTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/IllustratedMessageTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/NotifactionOverflowActionsPopoverTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/NotificationListGroupItemTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/NotificationListItemTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/PageTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/ProductSwitchItemTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/ProductSwitchTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/ShellBarItemTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/ShellBarPopoverTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/ShellBarTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/SideNavigationItemPopoverContentTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/SideNavigationTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/TimelineItemTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/TimelineTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/UploadCollectionItemTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/UploadCollectionTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/ViewSettingsDialogTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/WizardPopoverTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/WizardTabTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/WizardTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/Bar.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/BarcodeScannerDialog.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/FlexibleColumnLayout.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/IllustratedMessage.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/InvisibleTextStyles.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/NotifactionOverflowActionsPopover.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/NotificationListGroupItem.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/NotificationListItem.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/NotificationListItemBase.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/NotificationPrioIcon.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/Page.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/ProductSwitch.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/ProductSwitchItem.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/ShellBar.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/SideNavigation.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/Timeline.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/TimelineItem.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/UploadCollection.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/UploadCollectionItem.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/ViewSettingsDialog.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/Wizard.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/WizardPopover.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/WizardTab.css.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/BeforeSearch.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/NoActivities.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/NoData.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/NoEntries.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/NoMail.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/NoNotifications.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/NoSavedItems.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/NoSearchResults.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/NoTasks.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/UnableToLoad.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/UnableToUpload.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Dialog-BeforeSearch.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Dialog-NoActivities.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Dialog-NoData.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Dialog-NoEntries.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Dialog-NoMail.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Dialog-NoNotifications.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Dialog-NoSavedItems.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Dialog-NoSearchResults.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Dialog-NoTasks.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Dialog-UnableToLoad.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Dialog-UnableToUpload.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Scene-BeforeSearch.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Scene-NoActivities.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Scene-NoData.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Scene-NoEntries.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Scene-NoMail.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Scene-NoNotifications.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Scene-NoSavedItems.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Scene-NoSearchResults.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Scene-NoTasks.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Scene-UnableToLoad.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Scene-UnableToUpload.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Spot-BeforeSearch.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Spot-NoActivities.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Spot-NoData.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Spot-NoEntries.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Spot-NoMail.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Spot-NoNotifications.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Spot-NoSavedItems.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Spot-NoSearchResults.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Spot-NoTasks.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Spot-UnableToLoad.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Spot-UnableToUpload.js",
+				"sap/ui/webc/fiori/thirdparty/parameters-bundle.css-68447658.js",
+				"sap/ui/webc/fiori/thirdparty/parameters-bundle.css-816bd805.js",
+				"sap/ui/webc/fiori/thirdparty/parameters-bundle.css-a596f129.js",
+				"sap/ui/webc/fiori/thirdparty/parameters-bundle.css-a8f6197d.js",
+				"sap/ui/webc/fiori/thirdparty/parameters-bundle.css-cc7a39f2.js",
+				"sap/ui/webc/fiori/thirdparty/parameters-bundle.css-d0336f5e.js",
+				"sap/ui/webc/fiori/thirdparty/parameters-bundle.css-f592e4f1.js",
+				"sap/ui/webc/fiori/thirdparty/types/BarDesign.js",
+				"sap/ui/webc/fiori/thirdparty/types/FCLLayout.js",
+				"sap/ui/webc/fiori/thirdparty/types/IllustrationMessageType.js",
+				"sap/ui/webc/fiori/thirdparty/types/PageBackgroundDesign.js",
+				"sap/ui/webc/fiori/thirdparty/types/TimelineLayout.js",
+				"sap/ui/webc/fiori/thirdparty/types/UploadCollectionDnDMode.js",
+				"sap/ui/webc/fiori/thirdparty/types/UploadState.js",
+				"sap/ui/webc/fiori/thirdparty/upload-utils/UploadCollectionBodyDnD.js"
+			]
+		},
+		{
+			"name": "library.js",
+			"module": "sap/ui/webc/fiori/library.js",
+			"size": 2972,
+			"required": [
+				"sap/ui/webc/common/library.js",
+				"sap/ui/webc/fiori/thirdparty/Assets.js"
+			]
+		},
+		{
+			"name": "manifest.json",
+			"module": "sap/ui/webc/fiori/manifest.json",
+			"size": 2896
+		},
+		{
+			"name": "resources.json",
+			"size": 153734
+		},
+		{
+			"name": "thirdparty/Assets-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/Assets.js",
+			"size": 177,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/fiori/thirdparty/generated/json-imports/Themes.js",
+				"sap/ui/webc/fiori/thirdparty/generated/json-imports/i18n.js",
+				"sap/ui/webc/main/thirdparty/Assets.js"
+			]
+		},
+		{
+			"name": "thirdparty/Assets.js",
+			"module": "sap/ui/webc/fiori/thirdparty/Assets.js",
+			"size": 150,
+			"required": [
+				"sap/ui/webc/fiori/thirdparty/generated/json-imports/Themes.js",
+				"sap/ui/webc/fiori/thirdparty/generated/json-imports/i18n.js",
+				"sap/ui/webc/main/thirdparty/Assets.js"
+			]
+		},
+		{
+			"name": "thirdparty/Bar-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/Bar.js",
+			"size": 1292,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/UI5Element.js",
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/BarTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/Bar.css.js",
+				"sap/ui/webc/fiori/thirdparty/types/BarDesign.js"
+			]
+		},
+		{
+			"name": "thirdparty/Bar.js",
+			"module": "sap/ui/webc/fiori/thirdparty/Bar.js",
+			"size": 770,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/UI5Element.js",
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/BarTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/Bar.css.js",
+				"sap/ui/webc/fiori/thirdparty/types/BarDesign.js"
+			]
+		},
+		{
+			"name": "thirdparty/BarcodeScannerDialog-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/BarcodeScannerDialog.js",
+			"size": 860287,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/UI5Element.js",
+				"sap/ui/webc/common/thirdparty/base/i18nBundle.js",
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js",
+				"sap/ui/webc/fiori/thirdparty/generated/i18n/i18n-defaults.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/BarcodeScannerDialogTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/BarcodeScannerDialog.css.js",
+				"sap/ui/webc/main/thirdparty/BusyIndicator.js",
+				"sap/ui/webc/main/thirdparty/Button.js",
+				"sap/ui/webc/main/thirdparty/Dialog.js"
+			]
+		},
+		{
+			"name": "thirdparty/BarcodeScannerDialog.js",
+			"module": "sap/ui/webc/fiori/thirdparty/BarcodeScannerDialog.js",
+			"size": 366930,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/UI5Element.js",
+				"sap/ui/webc/common/thirdparty/base/i18nBundle.js",
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js",
+				"sap/ui/webc/fiori/thirdparty/generated/i18n/i18n-defaults.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/BarcodeScannerDialogTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/BarcodeScannerDialog.css.js",
+				"sap/ui/webc/main/thirdparty/BusyIndicator.js",
+				"sap/ui/webc/main/thirdparty/Button.js",
+				"sap/ui/webc/main/thirdparty/Dialog.js"
+			]
+		},
+		{
+			"name": "thirdparty/FlexibleColumnLayout-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/FlexibleColumnLayout.js",
+			"size": 11789,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/Device.js",
+				"sap/ui/webc/common/thirdparty/base/UI5Element.js",
+				"sap/ui/webc/common/thirdparty/base/config/AnimationMode.js",
+				"sap/ui/webc/common/thirdparty/base/delegate/ResizeHandler.js",
+				"sap/ui/webc/common/thirdparty/base/i18nBundle.js",
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js",
+				"sap/ui/webc/common/thirdparty/base/types/AnimationMode.js",
+				"sap/ui/webc/common/thirdparty/base/types/Float.js",
+				"sap/ui/webc/common/thirdparty/base/types/Integer.js",
+				"sap/ui/webc/common/thirdparty/icons/slim-arrow-left.js",
+				"sap/ui/webc/common/thirdparty/icons/slim-arrow-right.js",
+				"sap/ui/webc/fiori/thirdparty/fcl-utils/FCLLayout.js",
+				"sap/ui/webc/fiori/thirdparty/generated/i18n/i18n-defaults.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/FlexibleColumnLayoutTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/FlexibleColumnLayout.css.js",
+				"sap/ui/webc/fiori/thirdparty/types/FCLLayout.js",
+				"sap/ui/webc/main/thirdparty/Button.js"
+			]
+		},
+		{
+			"name": "thirdparty/FlexibleColumnLayout.js",
+			"module": "sap/ui/webc/fiori/thirdparty/FlexibleColumnLayout.js",
+			"size": 8087,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/Device.js",
+				"sap/ui/webc/common/thirdparty/base/UI5Element.js",
+				"sap/ui/webc/common/thirdparty/base/config/AnimationMode.js",
+				"sap/ui/webc/common/thirdparty/base/delegate/ResizeHandler.js",
+				"sap/ui/webc/common/thirdparty/base/i18nBundle.js",
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js",
+				"sap/ui/webc/common/thirdparty/base/types/AnimationMode.js",
+				"sap/ui/webc/common/thirdparty/base/types/Float.js",
+				"sap/ui/webc/common/thirdparty/base/types/Integer.js",
+				"sap/ui/webc/common/thirdparty/icons/slim-arrow-left.js",
+				"sap/ui/webc/common/thirdparty/icons/slim-arrow-right.js",
+				"sap/ui/webc/fiori/thirdparty/fcl-utils/FCLLayout.js",
+				"sap/ui/webc/fiori/thirdparty/generated/i18n/i18n-defaults.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/FlexibleColumnLayoutTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/FlexibleColumnLayout.css.js",
+				"sap/ui/webc/fiori/thirdparty/types/FCLLayout.js",
+				"sap/ui/webc/main/thirdparty/Button.js"
+			]
+		},
+		{
+			"name": "thirdparty/IllustratedMessage-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/IllustratedMessage.js",
+			"size": 4441,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/UI5Element.js",
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Illustrations.js",
+				"sap/ui/webc/common/thirdparty/base/delegate/ResizeHandler.js",
+				"sap/ui/webc/common/thirdparty/base/i18nBundle.js",
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/IllustratedMessageTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/IllustratedMessage.css.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/BeforeSearch.js",
+				"sap/ui/webc/fiori/thirdparty/types/IllustrationMessageType.js"
+			]
+		},
+		{
+			"name": "thirdparty/IllustratedMessage.js",
+			"module": "sap/ui/webc/fiori/thirdparty/IllustratedMessage.js",
+			"size": 2811,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/UI5Element.js",
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Illustrations.js",
+				"sap/ui/webc/common/thirdparty/base/delegate/ResizeHandler.js",
+				"sap/ui/webc/common/thirdparty/base/i18nBundle.js",
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/IllustratedMessageTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/IllustratedMessage.css.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/BeforeSearch.js",
+				"sap/ui/webc/fiori/thirdparty/types/IllustrationMessageType.js"
+			]
+		},
+		{
+			"name": "thirdparty/Interfaces-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/Interfaces.js",
+			"size": 1257,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/Interfaces.js",
+			"module": "sap/ui/webc/fiori/thirdparty/Interfaces.js",
+			"size": 805
+		},
+		{
+			"name": "thirdparty/NotificationAction-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/NotificationAction.js",
+			"size": 953,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/UI5Element.js",
+				"sap/ui/webc/main/thirdparty/types/ButtonDesign.js"
+			]
+		},
+		{
+			"name": "thirdparty/NotificationAction.js",
+			"module": "sap/ui/webc/fiori/thirdparty/NotificationAction.js",
+			"size": 493,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/UI5Element.js",
+				"sap/ui/webc/main/thirdparty/types/ButtonDesign.js"
+			]
+		},
+		{
+			"name": "thirdparty/NotificationListGroupItem-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/NotificationListGroupItem.js",
+			"size": 4448,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/i18nBundle.js",
+				"sap/ui/webc/fiori/thirdparty/NotificationListItemBase.js",
+				"sap/ui/webc/fiori/thirdparty/generated/i18n/i18n-defaults.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/NotificationListGroupItemTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/NotificationListGroupItem.css.js",
+				"sap/ui/webc/main/thirdparty/BusyIndicator.js",
+				"sap/ui/webc/main/thirdparty/Button.js",
+				"sap/ui/webc/main/thirdparty/Icon.js",
+				"sap/ui/webc/main/thirdparty/List.js",
+				"sap/ui/webc/main/thirdparty/Popover.js",
+				"sap/ui/webc/main/thirdparty/types/Priority.js"
+			]
+		},
+		{
+			"name": "thirdparty/NotificationListGroupItem.js",
+			"module": "sap/ui/webc/fiori/thirdparty/NotificationListGroupItem.js",
+			"size": 2898,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/i18nBundle.js",
+				"sap/ui/webc/fiori/thirdparty/NotificationListItemBase.js",
+				"sap/ui/webc/fiori/thirdparty/generated/i18n/i18n-defaults.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/NotificationListGroupItemTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/NotificationListGroupItem.css.js",
+				"sap/ui/webc/main/thirdparty/BusyIndicator.js",
+				"sap/ui/webc/main/thirdparty/Button.js",
+				"sap/ui/webc/main/thirdparty/Icon.js",
+				"sap/ui/webc/main/thirdparty/List.js",
+				"sap/ui/webc/main/thirdparty/Popover.js",
+				"sap/ui/webc/main/thirdparty/types/Priority.js"
+			]
+		},
+		{
+			"name": "thirdparty/NotificationListItem-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/NotificationListItem.js",
+			"size": 7670,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/Device.js",
+				"sap/ui/webc/common/thirdparty/base/Keys.js",
+				"sap/ui/webc/common/thirdparty/base/delegate/ResizeHandler.js",
+				"sap/ui/webc/common/thirdparty/base/i18nBundle.js",
+				"sap/ui/webc/fiori/thirdparty/NotificationListItemBase.js",
+				"sap/ui/webc/fiori/thirdparty/generated/i18n/i18n-defaults.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/NotificationListItemTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/NotificationListItem.css.js",
+				"sap/ui/webc/main/thirdparty/BusyIndicator.js",
+				"sap/ui/webc/main/thirdparty/Button.js",
+				"sap/ui/webc/main/thirdparty/Icon.js",
+				"sap/ui/webc/main/thirdparty/Link.js",
+				"sap/ui/webc/main/thirdparty/Popover.js",
+				"sap/ui/webc/main/thirdparty/types/Priority.js",
+				"sap/ui/webc/main/thirdparty/types/WrappingType.js"
+			]
+		},
+		{
+			"name": "thirdparty/NotificationListItem.js",
+			"module": "sap/ui/webc/fiori/thirdparty/NotificationListItem.js",
+			"size": 4858,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/Device.js",
+				"sap/ui/webc/common/thirdparty/base/Keys.js",
+				"sap/ui/webc/common/thirdparty/base/delegate/ResizeHandler.js",
+				"sap/ui/webc/common/thirdparty/base/i18nBundle.js",
+				"sap/ui/webc/fiori/thirdparty/NotificationListItemBase.js",
+				"sap/ui/webc/fiori/thirdparty/generated/i18n/i18n-defaults.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/NotificationListItemTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/NotificationListItem.css.js",
+				"sap/ui/webc/main/thirdparty/BusyIndicator.js",
+				"sap/ui/webc/main/thirdparty/Button.js",
+				"sap/ui/webc/main/thirdparty/Icon.js",
+				"sap/ui/webc/main/thirdparty/Link.js",
+				"sap/ui/webc/main/thirdparty/Popover.js",
+				"sap/ui/webc/main/thirdparty/types/Priority.js",
+				"sap/ui/webc/main/thirdparty/types/WrappingType.js"
+			]
+		},
+		{
+			"name": "thirdparty/NotificationListItemBase-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/NotificationListItemBase.js",
+			"size": 4300,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/Keys.js",
+				"sap/ui/webc/common/thirdparty/base/i18nBundle.js",
+				"sap/ui/webc/common/thirdparty/base/types/Integer.js",
+				"sap/ui/webc/common/thirdparty/icons/decline.js",
+				"sap/ui/webc/common/thirdparty/icons/message-error.js",
+				"sap/ui/webc/common/thirdparty/icons/message-success.js",
+				"sap/ui/webc/common/thirdparty/icons/message-warning.js",
+				"sap/ui/webc/common/thirdparty/icons/overflow.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/NotifactionOverflowActionsPopoverTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/NotifactionOverflowActionsPopover.css.js",
+				"sap/ui/webc/main/thirdparty/ListItemBase.js",
+				"sap/ui/webc/main/thirdparty/types/Priority.js"
+			]
+		},
+		{
+			"name": "thirdparty/NotificationListItemBase.js",
+			"module": "sap/ui/webc/fiori/thirdparty/NotificationListItemBase.js",
+			"size": 2766,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/Keys.js",
+				"sap/ui/webc/common/thirdparty/base/i18nBundle.js",
+				"sap/ui/webc/common/thirdparty/base/types/Integer.js",
+				"sap/ui/webc/common/thirdparty/icons/decline.js",
+				"sap/ui/webc/common/thirdparty/icons/message-error.js",
+				"sap/ui/webc/common/thirdparty/icons/message-success.js",
+				"sap/ui/webc/common/thirdparty/icons/message-warning.js",
+				"sap/ui/webc/common/thirdparty/icons/overflow.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/NotifactionOverflowActionsPopoverTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/NotifactionOverflowActionsPopover.css.js",
+				"sap/ui/webc/main/thirdparty/ListItemBase.js",
+				"sap/ui/webc/main/thirdparty/types/Priority.js"
+			]
+		},
+		{
+			"name": "thirdparty/Page-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/Page.js",
+			"size": 2700,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/MediaRange.js",
+				"sap/ui/webc/common/thirdparty/base/UI5Element.js",
+				"sap/ui/webc/common/thirdparty/base/delegate/ResizeHandler.js",
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/PageTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/Page.css.js",
+				"sap/ui/webc/fiori/thirdparty/types/PageBackgroundDesign.js"
+			]
+		},
+		{
+			"name": "thirdparty/Page.js",
+			"module": "sap/ui/webc/fiori/thirdparty/Page.js",
+			"size": 1701,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/MediaRange.js",
+				"sap/ui/webc/common/thirdparty/base/UI5Element.js",
+				"sap/ui/webc/common/thirdparty/base/delegate/ResizeHandler.js",
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/PageTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/Page.css.js",
+				"sap/ui/webc/fiori/thirdparty/types/PageBackgroundDesign.js"
+			]
+		},
+		{
+			"name": "thirdparty/ProductSwitch-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/ProductSwitch.js",
+			"size": 3697,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/Keys.js",
+				"sap/ui/webc/common/thirdparty/base/UI5Element.js",
+				"sap/ui/webc/common/thirdparty/base/delegate/ItemNavigation.js",
+				"sap/ui/webc/common/thirdparty/base/delegate/ResizeHandler.js",
+				"sap/ui/webc/common/thirdparty/base/i18nBundle.js",
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js",
+				"sap/ui/webc/common/thirdparty/base/types/Integer.js",
+				"sap/ui/webc/fiori/thirdparty/generated/i18n/i18n-defaults.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/ProductSwitchTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/ProductSwitch.css.js"
+			]
+		},
+		{
+			"name": "thirdparty/ProductSwitch.js",
+			"module": "sap/ui/webc/fiori/thirdparty/ProductSwitch.js",
+			"size": 2337,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/Keys.js",
+				"sap/ui/webc/common/thirdparty/base/UI5Element.js",
+				"sap/ui/webc/common/thirdparty/base/delegate/ItemNavigation.js",
+				"sap/ui/webc/common/thirdparty/base/delegate/ResizeHandler.js",
+				"sap/ui/webc/common/thirdparty/base/i18nBundle.js",
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js",
+				"sap/ui/webc/common/thirdparty/base/types/Integer.js",
+				"sap/ui/webc/fiori/thirdparty/generated/i18n/i18n-defaults.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/ProductSwitchTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/ProductSwitch.css.js"
+			]
+		},
+		{
+			"name": "thirdparty/ProductSwitchItem-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/ProductSwitchItem.js",
+			"size": 2660,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/Keys.js",
+				"sap/ui/webc/common/thirdparty/base/UI5Element.js",
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/ProductSwitchItemTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/ProductSwitchItem.css.js",
+				"sap/ui/webc/main/thirdparty/Icon.js"
+			]
+		},
+		{
+			"name": "thirdparty/ProductSwitchItem.js",
+			"module": "sap/ui/webc/fiori/thirdparty/ProductSwitchItem.js",
+			"size": 1619,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/Keys.js",
+				"sap/ui/webc/common/thirdparty/base/UI5Element.js",
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/ProductSwitchItemTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/ProductSwitchItem.css.js",
+				"sap/ui/webc/main/thirdparty/Icon.js"
+			]
+		},
+		{
+			"name": "thirdparty/ShellBar-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/ShellBar.js",
+			"size": 21347,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/FeaturesRegistry.js",
+				"sap/ui/webc/common/thirdparty/base/Keys.js",
+				"sap/ui/webc/common/thirdparty/base/UI5Element.js",
+				"sap/ui/webc/common/thirdparty/base/config/AnimationMode.js",
+				"sap/ui/webc/common/thirdparty/base/delegate/ResizeHandler.js",
+				"sap/ui/webc/common/thirdparty/base/i18nBundle.js",
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js",
+				"sap/ui/webc/common/thirdparty/base/types/AnimationMode.js",
+				"sap/ui/webc/common/thirdparty/icons/bell.js",
+				"sap/ui/webc/common/thirdparty/icons/grid.js",
+				"sap/ui/webc/common/thirdparty/icons/overflow.js",
+				"sap/ui/webc/common/thirdparty/icons/search.js",
+				"sap/ui/webc/fiori/thirdparty/generated/i18n/i18n-defaults.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/ShellBarPopoverTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/ShellBarTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/ShellBar.css.js",
+				"sap/ui/webc/main/thirdparty/Button.js",
+				"sap/ui/webc/main/thirdparty/List.js",
+				"sap/ui/webc/main/thirdparty/Popover.js",
+				"sap/ui/webc/main/thirdparty/StandardListItem.js"
+			]
+		},
+		{
+			"name": "thirdparty/ShellBar.js",
+			"module": "sap/ui/webc/fiori/thirdparty/ShellBar.js",
+			"size": 14457,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/FeaturesRegistry.js",
+				"sap/ui/webc/common/thirdparty/base/Keys.js",
+				"sap/ui/webc/common/thirdparty/base/UI5Element.js",
+				"sap/ui/webc/common/thirdparty/base/config/AnimationMode.js",
+				"sap/ui/webc/common/thirdparty/base/delegate/ResizeHandler.js",
+				"sap/ui/webc/common/thirdparty/base/i18nBundle.js",
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js",
+				"sap/ui/webc/common/thirdparty/base/types/AnimationMode.js",
+				"sap/ui/webc/common/thirdparty/icons/bell.js",
+				"sap/ui/webc/common/thirdparty/icons/grid.js",
+				"sap/ui/webc/common/thirdparty/icons/overflow.js",
+				"sap/ui/webc/common/thirdparty/icons/search.js",
+				"sap/ui/webc/fiori/thirdparty/generated/i18n/i18n-defaults.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/ShellBarPopoverTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/ShellBarTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/ShellBar.css.js",
+				"sap/ui/webc/main/thirdparty/Button.js",
+				"sap/ui/webc/main/thirdparty/List.js",
+				"sap/ui/webc/main/thirdparty/Popover.js",
+				"sap/ui/webc/main/thirdparty/StandardListItem.js"
+			]
+		},
+		{
+			"name": "thirdparty/ShellBarItem-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/ShellBarItem.js",
+			"size": 1117,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/UI5Element.js",
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/ShellBarItemTemplate.lit.js"
+			]
+		},
+		{
+			"name": "thirdparty/ShellBarItem.js",
+			"module": "sap/ui/webc/fiori/thirdparty/ShellBarItem.js",
+			"size": 622,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/UI5Element.js",
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/ShellBarItemTemplate.lit.js"
+			]
+		},
+		{
+			"name": "thirdparty/SideNavigation-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/SideNavigation.js",
+			"size": 5101,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/UI5Element.js",
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/SideNavigationItemPopoverContentTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/SideNavigationTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/SideNavigation.css.js",
+				"sap/ui/webc/main/thirdparty/List.js",
+				"sap/ui/webc/main/thirdparty/ResponsivePopover.js",
+				"sap/ui/webc/main/thirdparty/StandardListItem.js",
+				"sap/ui/webc/main/thirdparty/Tree.js",
+				"sap/ui/webc/main/thirdparty/TreeItem.js"
+			]
+		},
+		{
+			"name": "thirdparty/SideNavigation.js",
+			"module": "sap/ui/webc/fiori/thirdparty/SideNavigation.js",
+			"size": 2949,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/UI5Element.js",
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/SideNavigationItemPopoverContentTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/SideNavigationTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/SideNavigation.css.js",
+				"sap/ui/webc/main/thirdparty/List.js",
+				"sap/ui/webc/main/thirdparty/ResponsivePopover.js",
+				"sap/ui/webc/main/thirdparty/StandardListItem.js",
+				"sap/ui/webc/main/thirdparty/Tree.js",
+				"sap/ui/webc/main/thirdparty/TreeItem.js"
+			]
+		},
+		{
+			"name": "thirdparty/SideNavigationItem-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/SideNavigationItem.js",
+			"size": 912,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/UI5Element.js"
+			]
+		},
+		{
+			"name": "thirdparty/SideNavigationItem.js",
+			"module": "sap/ui/webc/fiori/thirdparty/SideNavigationItem.js",
+			"size": 534,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/UI5Element.js"
+			]
+		},
+		{
+			"name": "thirdparty/SideNavigationSubItem-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/SideNavigationSubItem.js",
+			"size": 688,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/UI5Element.js"
+			]
+		},
+		{
+			"name": "thirdparty/SideNavigationSubItem.js",
+			"module": "sap/ui/webc/fiori/thirdparty/SideNavigationSubItem.js",
+			"size": 376,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/UI5Element.js"
+			]
+		},
+		{
+			"name": "thirdparty/Timeline-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/Timeline.js",
+			"size": 3720,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/Keys.js",
+				"sap/ui/webc/common/thirdparty/base/UI5Element.js",
+				"sap/ui/webc/common/thirdparty/base/delegate/ItemNavigation.js",
+				"sap/ui/webc/common/thirdparty/base/i18nBundle.js",
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js",
+				"sap/ui/webc/common/thirdparty/base/types/NavigationMode.js",
+				"sap/ui/webc/fiori/thirdparty/TimelineItem.js",
+				"sap/ui/webc/fiori/thirdparty/generated/i18n/i18n-defaults.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/TimelineTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/Timeline.css.js",
+				"sap/ui/webc/fiori/thirdparty/types/TimelineLayout.js"
+			]
+		},
+		{
+			"name": "thirdparty/Timeline.js",
+			"module": "sap/ui/webc/fiori/thirdparty/Timeline.js",
+			"size": 2299,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/Keys.js",
+				"sap/ui/webc/common/thirdparty/base/UI5Element.js",
+				"sap/ui/webc/common/thirdparty/base/delegate/ItemNavigation.js",
+				"sap/ui/webc/common/thirdparty/base/i18nBundle.js",
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js",
+				"sap/ui/webc/common/thirdparty/base/types/NavigationMode.js",
+				"sap/ui/webc/fiori/thirdparty/TimelineItem.js",
+				"sap/ui/webc/fiori/thirdparty/generated/i18n/i18n-defaults.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/TimelineTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/Timeline.css.js",
+				"sap/ui/webc/fiori/thirdparty/types/TimelineLayout.js"
+			]
+		},
+		{
+			"name": "thirdparty/TimelineItem-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/TimelineItem.js",
+			"size": 2477,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/UI5Element.js",
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/TimelineItemTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/TimelineItem.css.js",
+				"sap/ui/webc/fiori/thirdparty/types/TimelineLayout.js",
+				"sap/ui/webc/main/thirdparty/Icon.js",
+				"sap/ui/webc/main/thirdparty/Link.js"
+			]
+		},
+		{
+			"name": "thirdparty/TimelineItem.js",
+			"module": "sap/ui/webc/fiori/thirdparty/TimelineItem.js",
+			"size": 1438,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/UI5Element.js",
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/TimelineItemTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/TimelineItem.css.js",
+				"sap/ui/webc/fiori/thirdparty/types/TimelineLayout.js",
+				"sap/ui/webc/main/thirdparty/Icon.js",
+				"sap/ui/webc/main/thirdparty/Link.js"
+			]
+		},
+		{
+			"name": "thirdparty/UploadCollection-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/UploadCollection.js",
+			"size": 5642,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/UI5Element.js",
+				"sap/ui/webc/common/thirdparty/base/i18nBundle.js",
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js",
+				"sap/ui/webc/common/thirdparty/icons/document.js",
+				"sap/ui/webc/common/thirdparty/icons/upload-to-cloud.js",
+				"sap/ui/webc/fiori/thirdparty/generated/i18n/i18n-defaults.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/UploadCollectionTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/UploadCollection.css.js",
+				"sap/ui/webc/fiori/thirdparty/types/UploadCollectionDnDMode.js",
+				"sap/ui/webc/fiori/thirdparty/upload-utils/UploadCollectionBodyDnD.js",
+				"sap/ui/webc/main/thirdparty/Icon.js",
+				"sap/ui/webc/main/thirdparty/Label.js",
+				"sap/ui/webc/main/thirdparty/List.js",
+				"sap/ui/webc/main/thirdparty/Title.js",
+				"sap/ui/webc/main/thirdparty/types/ListMode.js"
+			]
+		},
+		{
+			"name": "thirdparty/UploadCollection.js",
+			"module": "sap/ui/webc/fiori/thirdparty/UploadCollection.js",
+			"size": 3534,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/UI5Element.js",
+				"sap/ui/webc/common/thirdparty/base/i18nBundle.js",
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js",
+				"sap/ui/webc/common/thirdparty/icons/document.js",
+				"sap/ui/webc/common/thirdparty/icons/upload-to-cloud.js",
+				"sap/ui/webc/fiori/thirdparty/generated/i18n/i18n-defaults.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/UploadCollectionTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/UploadCollection.css.js",
+				"sap/ui/webc/fiori/thirdparty/types/UploadCollectionDnDMode.js",
+				"sap/ui/webc/fiori/thirdparty/upload-utils/UploadCollectionBodyDnD.js",
+				"sap/ui/webc/main/thirdparty/Icon.js",
+				"sap/ui/webc/main/thirdparty/Label.js",
+				"sap/ui/webc/main/thirdparty/List.js",
+				"sap/ui/webc/main/thirdparty/Title.js",
+				"sap/ui/webc/main/thirdparty/types/ListMode.js"
+			]
+		},
+		{
+			"name": "thirdparty/UploadCollectionItem-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/UploadCollectionItem.js",
+			"size": 7981,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/Keys.js",
+				"sap/ui/webc/common/thirdparty/base/Render.js",
+				"sap/ui/webc/common/thirdparty/base/i18nBundle.js",
+				"sap/ui/webc/common/thirdparty/base/types/Integer.js",
+				"sap/ui/webc/common/thirdparty/base/util/getFileExtension.js",
+				"sap/ui/webc/common/thirdparty/icons/edit.js",
+				"sap/ui/webc/common/thirdparty/icons/refresh.js",
+				"sap/ui/webc/common/thirdparty/icons/stop.js",
+				"sap/ui/webc/fiori/thirdparty/generated/i18n/i18n-defaults.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/UploadCollectionItemTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/UploadCollectionItem.css.js",
+				"sap/ui/webc/fiori/thirdparty/types/UploadState.js",
+				"sap/ui/webc/main/thirdparty/Button.js",
+				"sap/ui/webc/main/thirdparty/Input.js",
+				"sap/ui/webc/main/thirdparty/Label.js",
+				"sap/ui/webc/main/thirdparty/Link.js",
+				"sap/ui/webc/main/thirdparty/ListItem.js",
+				"sap/ui/webc/main/thirdparty/ProgressIndicator.js",
+				"sap/ui/webc/main/thirdparty/types/ListItemType.js"
+			]
+		},
+		{
+			"name": "thirdparty/UploadCollectionItem.js",
+			"module": "sap/ui/webc/fiori/thirdparty/UploadCollectionItem.js",
+			"size": 5223,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/Keys.js",
+				"sap/ui/webc/common/thirdparty/base/Render.js",
+				"sap/ui/webc/common/thirdparty/base/i18nBundle.js",
+				"sap/ui/webc/common/thirdparty/base/types/Integer.js",
+				"sap/ui/webc/common/thirdparty/base/util/getFileExtension.js",
+				"sap/ui/webc/common/thirdparty/icons/edit.js",
+				"sap/ui/webc/common/thirdparty/icons/refresh.js",
+				"sap/ui/webc/common/thirdparty/icons/stop.js",
+				"sap/ui/webc/fiori/thirdparty/generated/i18n/i18n-defaults.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/UploadCollectionItemTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/UploadCollectionItem.css.js",
+				"sap/ui/webc/fiori/thirdparty/types/UploadState.js",
+				"sap/ui/webc/main/thirdparty/Button.js",
+				"sap/ui/webc/main/thirdparty/Input.js",
+				"sap/ui/webc/main/thirdparty/Label.js",
+				"sap/ui/webc/main/thirdparty/Link.js",
+				"sap/ui/webc/main/thirdparty/ListItem.js",
+				"sap/ui/webc/main/thirdparty/ProgressIndicator.js",
+				"sap/ui/webc/main/thirdparty/types/ListItemType.js"
+			]
+		},
+		{
+			"name": "thirdparty/ViewSettingsDialog-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/ViewSettingsDialog.js",
+			"size": 6909,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/Device.js",
+				"sap/ui/webc/common/thirdparty/base/UI5Element.js",
+				"sap/ui/webc/common/thirdparty/base/i18nBundle.js",
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js",
+				"sap/ui/webc/fiori/thirdparty/Bar.js",
+				"sap/ui/webc/fiori/thirdparty/generated/i18n/i18n-defaults.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/ViewSettingsDialogTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/ViewSettingsDialog.css.js",
+				"sap/ui/webc/main/thirdparty/Button.js",
+				"sap/ui/webc/main/thirdparty/Dialog.js",
+				"sap/ui/webc/main/thirdparty/GroupHeaderListItem.js",
+				"sap/ui/webc/main/thirdparty/List.js",
+				"sap/ui/webc/main/thirdparty/StandardListItem.js"
+			]
+		},
+		{
+			"name": "thirdparty/ViewSettingsDialog.js",
+			"module": "sap/ui/webc/fiori/thirdparty/ViewSettingsDialog.js",
+			"size": 4484,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/Device.js",
+				"sap/ui/webc/common/thirdparty/base/UI5Element.js",
+				"sap/ui/webc/common/thirdparty/base/i18nBundle.js",
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js",
+				"sap/ui/webc/fiori/thirdparty/Bar.js",
+				"sap/ui/webc/fiori/thirdparty/generated/i18n/i18n-defaults.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/ViewSettingsDialogTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/ViewSettingsDialog.css.js",
+				"sap/ui/webc/main/thirdparty/Button.js",
+				"sap/ui/webc/main/thirdparty/Dialog.js",
+				"sap/ui/webc/main/thirdparty/GroupHeaderListItem.js",
+				"sap/ui/webc/main/thirdparty/List.js",
+				"sap/ui/webc/main/thirdparty/StandardListItem.js"
+			]
+		},
+		{
+			"name": "thirdparty/Wizard-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/Wizard.js",
+			"size": 20097,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/Device.js",
+				"sap/ui/webc/common/thirdparty/base/UI5Element.js",
+				"sap/ui/webc/common/thirdparty/base/delegate/ItemNavigation.js",
+				"sap/ui/webc/common/thirdparty/base/delegate/ResizeHandler.js",
+				"sap/ui/webc/common/thirdparty/base/i18nBundle.js",
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js",
+				"sap/ui/webc/common/thirdparty/base/types/Float.js",
+				"sap/ui/webc/common/thirdparty/base/types/NavigationMode.js",
+				"sap/ui/webc/common/thirdparty/base/util/FocusableElements.js",
+				"sap/ui/webc/common/thirdparty/base/util/clamp.js",
+				"sap/ui/webc/common/thirdparty/base/util/debounce.js",
+				"sap/ui/webc/fiori/thirdparty/WizardStep.js",
+				"sap/ui/webc/fiori/thirdparty/WizardTab.js",
+				"sap/ui/webc/fiori/thirdparty/generated/i18n/i18n-defaults.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/WizardPopoverTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/WizardTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/Wizard.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/WizardPopover.css.js",
+				"sap/ui/webc/main/thirdparty/Button.js",
+				"sap/ui/webc/main/thirdparty/ResponsivePopover.js"
+			]
+		},
+		{
+			"name": "thirdparty/Wizard.js",
+			"module": "sap/ui/webc/fiori/thirdparty/Wizard.js",
+			"size": 12529,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/Device.js",
+				"sap/ui/webc/common/thirdparty/base/UI5Element.js",
+				"sap/ui/webc/common/thirdparty/base/delegate/ItemNavigation.js",
+				"sap/ui/webc/common/thirdparty/base/delegate/ResizeHandler.js",
+				"sap/ui/webc/common/thirdparty/base/i18nBundle.js",
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js",
+				"sap/ui/webc/common/thirdparty/base/types/Float.js",
+				"sap/ui/webc/common/thirdparty/base/types/NavigationMode.js",
+				"sap/ui/webc/common/thirdparty/base/util/FocusableElements.js",
+				"sap/ui/webc/common/thirdparty/base/util/clamp.js",
+				"sap/ui/webc/common/thirdparty/base/util/debounce.js",
+				"sap/ui/webc/fiori/thirdparty/WizardStep.js",
+				"sap/ui/webc/fiori/thirdparty/WizardTab.js",
+				"sap/ui/webc/fiori/thirdparty/generated/i18n/i18n-defaults.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/WizardPopoverTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/WizardTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/Wizard.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/WizardPopover.css.js",
+				"sap/ui/webc/main/thirdparty/Button.js",
+				"sap/ui/webc/main/thirdparty/ResponsivePopover.js"
+			]
+		},
+		{
+			"name": "thirdparty/WizardStep-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/WizardStep.js",
+			"size": 919,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/UI5Element.js"
+			]
+		},
+		{
+			"name": "thirdparty/WizardStep.js",
+			"module": "sap/ui/webc/fiori/thirdparty/WizardStep.js",
+			"size": 533,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/UI5Element.js"
+			]
+		},
+		{
+			"name": "thirdparty/WizardTab-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/WizardTab.js",
+			"size": 2807,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/Keys.js",
+				"sap/ui/webc/common/thirdparty/base/UI5Element.js",
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/WizardTabTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/WizardTab.css.js",
+				"sap/ui/webc/main/thirdparty/Icon.js"
+			]
+		},
+		{
+			"name": "thirdparty/WizardTab.js",
+			"module": "sap/ui/webc/fiori/thirdparty/WizardTab.js",
+			"size": 1832,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/Keys.js",
+				"sap/ui/webc/common/thirdparty/base/UI5Element.js",
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js",
+				"sap/ui/webc/fiori/thirdparty/generated/templates/WizardTabTemplate.lit.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/WizardTab.css.js",
+				"sap/ui/webc/main/thirdparty/Icon.js"
+			]
+		},
+		{
+			"name": "thirdparty/fcl-utils/FCLLayout-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/fcl-utils/FCLLayout.js",
+			"size": 6242,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/fcl-utils/FCLLayout.js",
+			"module": "sap/ui/webc/fiori/thirdparty/fcl-utils/FCLLayout.js",
+			"size": 4057
+		},
+		{
+			"name": "thirdparty/features/CoPilotAnimation-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/features/CoPilotAnimation.js",
+			"size": 6482,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/FeaturesRegistry.js"
+			]
+		},
+		{
+			"name": "thirdparty/features/CoPilotAnimation.js",
+			"module": "sap/ui/webc/fiori/thirdparty/features/CoPilotAnimation.js",
+			"size": 6395,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/FeaturesRegistry.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/i18n/i18n-defaults-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/i18n/i18n-defaults.js",
+			"size": 15623,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/generated/i18n/i18n-defaults.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/i18n/i18n-defaults.js",
+			"size": 9755
+		},
+		{
+			"name": "thirdparty/generated/json-imports/Themes-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/json-imports/Themes.js",
+			"size": 2040,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Themes.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/json-imports/Themes.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/json-imports/Themes.js",
+			"size": 1525,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Themes.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/json-imports/i18n-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/json-imports/i18n.js",
+			"size": 8265,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/i18n.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/json-imports/i18n.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/json-imports/i18n.js",
+			"size": 5860,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/i18n.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/templates/BarTemplate.lit-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/templates/BarTemplate.lit.js",
+			"size": 614,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/templates/BarTemplate.lit.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/templates/BarTemplate.lit.js",
+			"size": 540,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/templates/BarcodeScannerDialogTemplate.lit-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/templates/BarcodeScannerDialogTemplate.lit.js",
+			"size": 1124,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/templates/BarcodeScannerDialogTemplate.lit.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/templates/BarcodeScannerDialogTemplate.lit.js",
+			"size": 874,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/templates/FlexibleColumnLayoutTemplate.lit-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/templates/FlexibleColumnLayoutTemplate.lit.js",
+			"size": 2265,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/templates/FlexibleColumnLayoutTemplate.lit.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/templates/FlexibleColumnLayoutTemplate.lit.js",
+			"size": 1827,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/templates/IllustratedMessageTemplate.lit-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/templates/IllustratedMessageTemplate.lit.js",
+			"size": 3013,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/templates/IllustratedMessageTemplate.lit.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/templates/IllustratedMessageTemplate.lit.js",
+			"size": 2679,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/templates/NotifactionOverflowActionsPopoverTemplate.lit-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/templates/NotifactionOverflowActionsPopoverTemplate.lit.js",
+			"size": 1039,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/templates/NotifactionOverflowActionsPopoverTemplate.lit.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/templates/NotifactionOverflowActionsPopoverTemplate.lit.js",
+			"size": 736,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/templates/NotificationListGroupItemTemplate.lit-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/templates/NotificationListGroupItemTemplate.lit.js",
+			"size": 4139,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/templates/NotificationListGroupItemTemplate.lit.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/templates/NotificationListGroupItemTemplate.lit.js",
+			"size": 2914,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/templates/NotificationListItemTemplate.lit-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/templates/NotificationListItemTemplate.lit.js",
+			"size": 4403,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/templates/NotificationListItemTemplate.lit.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/templates/NotificationListItemTemplate.lit.js",
+			"size": 3096,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/templates/PageTemplate.lit-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/templates/PageTemplate.lit.js",
+			"size": 565,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/templates/PageTemplate.lit.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/templates/PageTemplate.lit.js",
+			"size": 477,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/templates/ProductSwitchItemTemplate.lit-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/templates/ProductSwitchItemTemplate.lit.js",
+			"size": 2641,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/templates/ProductSwitchItemTemplate.lit.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/templates/ProductSwitchItemTemplate.lit.js",
+			"size": 1817,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/templates/ProductSwitchTemplate.lit-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/templates/ProductSwitchTemplate.lit.js",
+			"size": 386,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/templates/ProductSwitchTemplate.lit.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/templates/ProductSwitchTemplate.lit.js",
+			"size": 300,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/templates/ShellBarItemTemplate.lit-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/templates/ShellBarItemTemplate.lit.js",
+			"size": 250,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/templates/ShellBarItemTemplate.lit.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/templates/ShellBarItemTemplate.lit.js",
+			"size": 176,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/templates/ShellBarPopoverTemplate.lit-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/templates/ShellBarPopoverTemplate.lit.js",
+			"size": 2033,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/templates/ShellBarPopoverTemplate.lit.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/templates/ShellBarPopoverTemplate.lit.js",
+			"size": 1420,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/templates/ShellBarTemplate.lit-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/templates/ShellBarTemplate.lit.js",
+			"size": 10887,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/templates/ShellBarTemplate.lit.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/templates/ShellBarTemplate.lit.js",
+			"size": 8575,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/templates/SideNavigationItemPopoverContentTemplate.lit-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/templates/SideNavigationItemPopoverContentTemplate.lit.js",
+			"size": 1242,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/templates/SideNavigationItemPopoverContentTemplate.lit.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/templates/SideNavigationItemPopoverContentTemplate.lit.js",
+			"size": 844,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/templates/SideNavigationTemplate.lit-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/templates/SideNavigationTemplate.lit.js",
+			"size": 3648,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/templates/SideNavigationTemplate.lit.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/templates/SideNavigationTemplate.lit.js",
+			"size": 2333,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/templates/TimelineItemTemplate.lit-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/templates/TimelineItemTemplate.lit.js",
+			"size": 1911,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/templates/TimelineItemTemplate.lit.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/templates/TimelineItemTemplate.lit.js",
+			"size": 1305,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/templates/TimelineTemplate.lit-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/templates/TimelineTemplate.lit.js",
+			"size": 837,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/templates/TimelineTemplate.lit.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/templates/TimelineTemplate.lit.js",
+			"size": 627,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/templates/UploadCollectionItemTemplate.lit-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/templates/UploadCollectionItemTemplate.lit.js",
+			"size": 9459,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/templates/UploadCollectionItemTemplate.lit.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/templates/UploadCollectionItemTemplate.lit.js",
+			"size": 6727,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/templates/UploadCollectionTemplate.lit-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/templates/UploadCollectionTemplate.lit.js",
+			"size": 2039,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/templates/UploadCollectionTemplate.lit.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/templates/UploadCollectionTemplate.lit.js",
+			"size": 1457,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/templates/ViewSettingsDialogTemplate.lit-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/templates/ViewSettingsDialogTemplate.lit.js",
+			"size": 2811,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/templates/ViewSettingsDialogTemplate.lit.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/templates/ViewSettingsDialogTemplate.lit.js",
+			"size": 2095,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/templates/WizardPopoverTemplate.lit-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/templates/WizardPopoverTemplate.lit.js",
+			"size": 1479,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/templates/WizardPopoverTemplate.lit.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/templates/WizardPopoverTemplate.lit.js",
+			"size": 1100,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/templates/WizardTabTemplate.lit-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/templates/WizardTabTemplate.lit.js",
+			"size": 1748,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/templates/WizardTabTemplate.lit.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/templates/WizardTabTemplate.lit.js",
+			"size": 1264,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/templates/WizardTemplate.lit-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/templates/WizardTemplate.lit.js",
+			"size": 2456,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/templates/WizardTemplate.lit.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/templates/WizardTemplate.lit.js",
+			"size": 1871,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/renderer/LitRenderer.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/themes/Bar.css-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/Bar.css.js",
+			"size": 1893,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Themes.js",
+				"sap/ui/webc/common/thirdparty/theme-base/generated/themes/sap_fiori_3/parameters-bundle.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/sap_fiori_3/parameters-bundle.css.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/themes/Bar.css.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/Bar.css.js",
+			"size": 1643,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Themes.js",
+				"sap/ui/webc/common/thirdparty/theme-base/generated/themes/sap_fiori_3/parameters-bundle.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/sap_fiori_3/parameters-bundle.css.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/themes/BarcodeScannerDialog.css-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/BarcodeScannerDialog.css.js",
+			"size": 1280,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Themes.js",
+				"sap/ui/webc/common/thirdparty/theme-base/generated/themes/sap_fiori_3/parameters-bundle.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/sap_fiori_3/parameters-bundle.css.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/themes/BarcodeScannerDialog.css.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/BarcodeScannerDialog.css.js",
+			"size": 996,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Themes.js",
+				"sap/ui/webc/common/thirdparty/theme-base/generated/themes/sap_fiori_3/parameters-bundle.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/sap_fiori_3/parameters-bundle.css.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/themes/FlexibleColumnLayout.css-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/FlexibleColumnLayout.css.js",
+			"size": 2689,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Themes.js",
+				"sap/ui/webc/common/thirdparty/theme-base/generated/themes/sap_fiori_3/parameters-bundle.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/sap_fiori_3/parameters-bundle.css.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/themes/FlexibleColumnLayout.css.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/FlexibleColumnLayout.css.js",
+			"size": 2391,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Themes.js",
+				"sap/ui/webc/common/thirdparty/theme-base/generated/themes/sap_fiori_3/parameters-bundle.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/sap_fiori_3/parameters-bundle.css.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/themes/IllustratedMessage.css-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/IllustratedMessage.css.js",
+			"size": 3505,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Themes.js",
+				"sap/ui/webc/common/thirdparty/theme-base/generated/themes/sap_fiori_3/parameters-bundle.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/sap_fiori_3/parameters-bundle.css.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/themes/IllustratedMessage.css.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/IllustratedMessage.css.js",
+			"size": 3225,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Themes.js",
+				"sap/ui/webc/common/thirdparty/theme-base/generated/themes/sap_fiori_3/parameters-bundle.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/sap_fiori_3/parameters-bundle.css.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/themes/InvisibleTextStyles.css-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/InvisibleTextStyles.css.js",
+			"size": 916,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Themes.js",
+				"sap/ui/webc/common/thirdparty/theme-base/generated/themes/sap_fiori_3/parameters-bundle.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/sap_fiori_3/parameters-bundle.css.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/themes/InvisibleTextStyles.css.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/InvisibleTextStyles.css.js",
+			"size": 632,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Themes.js",
+				"sap/ui/webc/common/thirdparty/theme-base/generated/themes/sap_fiori_3/parameters-bundle.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/sap_fiori_3/parameters-bundle.css.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/themes/NotifactionOverflowActionsPopover.css-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/NotifactionOverflowActionsPopover.css.js",
+			"size": 901,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Themes.js",
+				"sap/ui/webc/common/thirdparty/theme-base/generated/themes/sap_fiori_3/parameters-bundle.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/sap_fiori_3/parameters-bundle.css.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/themes/NotifactionOverflowActionsPopover.css.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/NotifactionOverflowActionsPopover.css.js",
+			"size": 591,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Themes.js",
+				"sap/ui/webc/common/thirdparty/theme-base/generated/themes/sap_fiori_3/parameters-bundle.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/sap_fiori_3/parameters-bundle.css.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/themes/NotificationListGroupItem.css-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/NotificationListGroupItem.css.js",
+			"size": 3172,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Themes.js",
+				"sap/ui/webc/common/thirdparty/theme-base/generated/themes/sap_fiori_3/parameters-bundle.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/sap_fiori_3/parameters-bundle.css.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/themes/NotificationListGroupItem.css.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/NotificationListGroupItem.css.js",
+			"size": 2872,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Themes.js",
+				"sap/ui/webc/common/thirdparty/theme-base/generated/themes/sap_fiori_3/parameters-bundle.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/sap_fiori_3/parameters-bundle.css.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/themes/NotificationListItem.css-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/NotificationListItem.css.js",
+			"size": 4244,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Themes.js",
+				"sap/ui/webc/common/thirdparty/theme-base/generated/themes/sap_fiori_3/parameters-bundle.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/sap_fiori_3/parameters-bundle.css.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/themes/NotificationListItem.css.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/NotificationListItem.css.js",
+			"size": 3954,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Themes.js",
+				"sap/ui/webc/common/thirdparty/theme-base/generated/themes/sap_fiori_3/parameters-bundle.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/sap_fiori_3/parameters-bundle.css.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/themes/NotificationListItemBase.css-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/NotificationListItemBase.css.js",
+			"size": 1730,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Themes.js",
+				"sap/ui/webc/common/thirdparty/theme-base/generated/themes/sap_fiori_3/parameters-bundle.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/sap_fiori_3/parameters-bundle.css.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/themes/NotificationListItemBase.css.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/NotificationListItemBase.css.js",
+			"size": 1434,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Themes.js",
+				"sap/ui/webc/common/thirdparty/theme-base/generated/themes/sap_fiori_3/parameters-bundle.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/sap_fiori_3/parameters-bundle.css.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/themes/NotificationPrioIcon.css-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/NotificationPrioIcon.css.js",
+			"size": 1110,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Themes.js",
+				"sap/ui/webc/common/thirdparty/theme-base/generated/themes/sap_fiori_3/parameters-bundle.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/sap_fiori_3/parameters-bundle.css.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/themes/NotificationPrioIcon.css.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/NotificationPrioIcon.css.js",
+			"size": 824,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Themes.js",
+				"sap/ui/webc/common/thirdparty/theme-base/generated/themes/sap_fiori_3/parameters-bundle.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/sap_fiori_3/parameters-bundle.css.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/themes/Page.css-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/Page.css.js",
+			"size": 2880,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Themes.js",
+				"sap/ui/webc/common/thirdparty/theme-base/generated/themes/sap_fiori_3/parameters-bundle.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/sap_fiori_3/parameters-bundle.css.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/themes/Page.css.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/Page.css.js",
+			"size": 2628,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Themes.js",
+				"sap/ui/webc/common/thirdparty/theme-base/generated/themes/sap_fiori_3/parameters-bundle.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/sap_fiori_3/parameters-bundle.css.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/themes/ProductSwitch.css-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/ProductSwitch.css.js",
+			"size": 1262,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Themes.js",
+				"sap/ui/webc/common/thirdparty/theme-base/generated/themes/sap_fiori_3/parameters-bundle.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/sap_fiori_3/parameters-bundle.css.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/themes/ProductSwitch.css.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/ProductSwitch.css.js",
+			"size": 986,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Themes.js",
+				"sap/ui/webc/common/thirdparty/theme-base/generated/themes/sap_fiori_3/parameters-bundle.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/sap_fiori_3/parameters-bundle.css.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/themes/ProductSwitchItem.css-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/ProductSwitchItem.css.js",
+			"size": 4670,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Themes.js",
+				"sap/ui/webc/common/thirdparty/theme-base/generated/themes/sap_fiori_3/parameters-bundle.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/sap_fiori_3/parameters-bundle.css.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/themes/ProductSwitchItem.css.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/ProductSwitchItem.css.js",
+			"size": 4390,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Themes.js",
+				"sap/ui/webc/common/thirdparty/theme-base/generated/themes/sap_fiori_3/parameters-bundle.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/sap_fiori_3/parameters-bundle.css.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/themes/ShellBar.css-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/ShellBar.css.js",
+			"size": 10383,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Themes.js",
+				"sap/ui/webc/common/thirdparty/theme-base/generated/themes/sap_fiori_3/parameters-bundle.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/sap_fiori_3/parameters-bundle.css.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/themes/ShellBar.css.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/ShellBar.css.js",
+			"size": 10119,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Themes.js",
+				"sap/ui/webc/common/thirdparty/theme-base/generated/themes/sap_fiori_3/parameters-bundle.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/sap_fiori_3/parameters-bundle.css.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/themes/SideNavigation.css-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/SideNavigation.css.js",
+			"size": 1410,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Themes.js",
+				"sap/ui/webc/common/thirdparty/theme-base/generated/themes/sap_fiori_3/parameters-bundle.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/sap_fiori_3/parameters-bundle.css.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/themes/SideNavigation.css.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/SideNavigation.css.js",
+			"size": 1138,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Themes.js",
+				"sap/ui/webc/common/thirdparty/theme-base/generated/themes/sap_fiori_3/parameters-bundle.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/sap_fiori_3/parameters-bundle.css.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/themes/Timeline.css-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/Timeline.css.js",
+			"size": 1610,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Themes.js",
+				"sap/ui/webc/common/thirdparty/theme-base/generated/themes/sap_fiori_3/parameters-bundle.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/sap_fiori_3/parameters-bundle.css.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/themes/Timeline.css.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/Timeline.css.js",
+			"size": 1360,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Themes.js",
+				"sap/ui/webc/common/thirdparty/theme-base/generated/themes/sap_fiori_3/parameters-bundle.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/sap_fiori_3/parameters-bundle.css.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/themes/TimelineItem.css-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/TimelineItem.css.js",
+			"size": 5695,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Themes.js",
+				"sap/ui/webc/common/thirdparty/theme-base/generated/themes/sap_fiori_3/parameters-bundle.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/sap_fiori_3/parameters-bundle.css.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/themes/TimelineItem.css.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/TimelineItem.css.js",
+			"size": 5431,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Themes.js",
+				"sap/ui/webc/common/thirdparty/theme-base/generated/themes/sap_fiori_3/parameters-bundle.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/sap_fiori_3/parameters-bundle.css.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/themes/UploadCollection.css-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/UploadCollection.css.js",
+			"size": 2740,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Themes.js",
+				"sap/ui/webc/common/thirdparty/theme-base/generated/themes/sap_fiori_3/parameters-bundle.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/sap_fiori_3/parameters-bundle.css.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/themes/UploadCollection.css.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/UploadCollection.css.js",
+			"size": 2458,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Themes.js",
+				"sap/ui/webc/common/thirdparty/theme-base/generated/themes/sap_fiori_3/parameters-bundle.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/sap_fiori_3/parameters-bundle.css.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/themes/UploadCollectionItem.css-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/UploadCollectionItem.css.js",
+			"size": 3004,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Themes.js",
+				"sap/ui/webc/common/thirdparty/theme-base/generated/themes/sap_fiori_3/parameters-bundle.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/sap_fiori_3/parameters-bundle.css.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/themes/UploadCollectionItem.css.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/UploadCollectionItem.css.js",
+			"size": 2714,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Themes.js",
+				"sap/ui/webc/common/thirdparty/theme-base/generated/themes/sap_fiori_3/parameters-bundle.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/sap_fiori_3/parameters-bundle.css.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/themes/ViewSettingsDialog.css-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/ViewSettingsDialog.css.js",
+			"size": 1160,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Themes.js",
+				"sap/ui/webc/common/thirdparty/theme-base/generated/themes/sap_fiori_3/parameters-bundle.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/sap_fiori_3/parameters-bundle.css.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/themes/ViewSettingsDialog.css.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/ViewSettingsDialog.css.js",
+			"size": 880,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Themes.js",
+				"sap/ui/webc/common/thirdparty/theme-base/generated/themes/sap_fiori_3/parameters-bundle.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/sap_fiori_3/parameters-bundle.css.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/themes/Wizard.css-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/Wizard.css.js",
+			"size": 2371,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Themes.js",
+				"sap/ui/webc/common/thirdparty/theme-base/generated/themes/sap_fiori_3/parameters-bundle.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/sap_fiori_3/parameters-bundle.css.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/themes/Wizard.css.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/Wizard.css.js",
+			"size": 2115,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Themes.js",
+				"sap/ui/webc/common/thirdparty/theme-base/generated/themes/sap_fiori_3/parameters-bundle.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/sap_fiori_3/parameters-bundle.css.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/themes/WizardPopover.css-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/WizardPopover.css.js",
+			"size": 1201,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Themes.js",
+				"sap/ui/webc/common/thirdparty/theme-base/generated/themes/sap_fiori_3/parameters-bundle.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/sap_fiori_3/parameters-bundle.css.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/themes/WizardPopover.css.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/WizardPopover.css.js",
+			"size": 931,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Themes.js",
+				"sap/ui/webc/common/thirdparty/theme-base/generated/themes/sap_fiori_3/parameters-bundle.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/sap_fiori_3/parameters-bundle.css.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/themes/WizardTab.css-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/WizardTab.css.js",
+			"size": 3890,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Themes.js",
+				"sap/ui/webc/common/thirdparty/theme-base/generated/themes/sap_fiori_3/parameters-bundle.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/sap_fiori_3/parameters-bundle.css.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/themes/WizardTab.css.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/WizardTab.css.js",
+			"size": 3626,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Themes.js",
+				"sap/ui/webc/common/thirdparty/theme-base/generated/themes/sap_fiori_3/parameters-bundle.css.js",
+				"sap/ui/webc/fiori/thirdparty/generated/themes/sap_fiori_3/parameters-bundle.css.js"
+			]
+		},
+		{
+			"name": "thirdparty/generated/themes/sap_belize/parameters-bundle.css-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/sap_belize/parameters-bundle.css.js",
+			"size": 2892,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/generated/themes/sap_belize/parameters-bundle.css.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/sap_belize/parameters-bundle.css.js",
+			"size": 2839
+		},
+		{
+			"name": "thirdparty/generated/themes/sap_belize_hcb/parameters-bundle.css-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/sap_belize_hcb/parameters-bundle.css.js",
+			"size": 3954,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/generated/themes/sap_belize_hcb/parameters-bundle.css.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/sap_belize_hcb/parameters-bundle.css.js",
+			"size": 3901
+		},
+		{
+			"name": "thirdparty/generated/themes/sap_belize_hcw/parameters-bundle.css-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/sap_belize_hcw/parameters-bundle.css.js",
+			"size": 3896,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/generated/themes/sap_belize_hcw/parameters-bundle.css.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/sap_belize_hcw/parameters-bundle.css.js",
+			"size": 3843
+		},
+		{
+			"name": "thirdparty/generated/themes/sap_fiori_3/parameters-bundle.css-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/sap_fiori_3/parameters-bundle.css.js",
+			"size": 2876,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/generated/themes/sap_fiori_3/parameters-bundle.css.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/sap_fiori_3/parameters-bundle.css.js",
+			"size": 2839
+		},
+		{
+			"name": "thirdparty/generated/themes/sap_fiori_3_dark/parameters-bundle.css-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/sap_fiori_3_dark/parameters-bundle.css.js",
+			"size": 2892,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/generated/themes/sap_fiori_3_dark/parameters-bundle.css.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/sap_fiori_3_dark/parameters-bundle.css.js",
+			"size": 2839
+		},
+		{
+			"name": "thirdparty/generated/themes/sap_fiori_3_hcb/parameters-bundle.css-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/sap_fiori_3_hcb/parameters-bundle.css.js",
+			"size": 4190,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/generated/themes/sap_fiori_3_hcb/parameters-bundle.css.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/sap_fiori_3_hcb/parameters-bundle.css.js",
+			"size": 4137
+		},
+		{
+			"name": "thirdparty/generated/themes/sap_fiori_3_hcw/parameters-bundle.css-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/sap_fiori_3_hcw/parameters-bundle.css.js",
+			"size": 4132,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/generated/themes/sap_fiori_3_hcw/parameters-bundle.css.js",
+			"module": "sap/ui/webc/fiori/thirdparty/generated/themes/sap_fiori_3_hcw/parameters-bundle.css.js",
+			"size": 4079
+		},
+		{
+			"name": "thirdparty/illustrations/BeforeSearch-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/BeforeSearch.js",
+			"size": 913,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Illustrations.js",
+				"sap/ui/webc/fiori/thirdparty/generated/i18n/i18n-defaults.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Dialog-BeforeSearch.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Scene-BeforeSearch.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Spot-BeforeSearch.js"
+			]
+		},
+		{
+			"name": "thirdparty/illustrations/BeforeSearch.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/BeforeSearch.js",
+			"size": 521,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Illustrations.js",
+				"sap/ui/webc/fiori/thirdparty/generated/i18n/i18n-defaults.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Dialog-BeforeSearch.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Scene-BeforeSearch.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Spot-BeforeSearch.js"
+			]
+		},
+		{
+			"name": "thirdparty/illustrations/NoActivities-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/NoActivities.js",
+			"size": 913,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Illustrations.js",
+				"sap/ui/webc/fiori/thirdparty/generated/i18n/i18n-defaults.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Dialog-NoActivities.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Scene-NoActivities.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Spot-NoActivities.js"
+			]
+		},
+		{
+			"name": "thirdparty/illustrations/NoActivities.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/NoActivities.js",
+			"size": 521,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Illustrations.js",
+				"sap/ui/webc/fiori/thirdparty/generated/i18n/i18n-defaults.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Dialog-NoActivities.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Scene-NoActivities.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Spot-NoActivities.js"
+			]
+		},
+		{
+			"name": "thirdparty/illustrations/NoData-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/NoData.js",
+			"size": 823,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Illustrations.js",
+				"sap/ui/webc/fiori/thirdparty/generated/i18n/i18n-defaults.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Dialog-NoData.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Scene-NoData.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Spot-NoData.js"
+			]
+		},
+		{
+			"name": "thirdparty/illustrations/NoData.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/NoData.js",
+			"size": 485,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Illustrations.js",
+				"sap/ui/webc/fiori/thirdparty/generated/i18n/i18n-defaults.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Dialog-NoData.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Scene-NoData.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Spot-NoData.js"
+			]
+		},
+		{
+			"name": "thirdparty/illustrations/NoEntries-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/NoEntries.js",
+			"size": 868,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Illustrations.js",
+				"sap/ui/webc/fiori/thirdparty/generated/i18n/i18n-defaults.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Dialog-NoEntries.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Scene-NoEntries.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Spot-NoEntries.js"
+			]
+		},
+		{
+			"name": "thirdparty/illustrations/NoEntries.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/NoEntries.js",
+			"size": 503,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Illustrations.js",
+				"sap/ui/webc/fiori/thirdparty/generated/i18n/i18n-defaults.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Dialog-NoEntries.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Scene-NoEntries.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Spot-NoEntries.js"
+			]
+		},
+		{
+			"name": "thirdparty/illustrations/NoMail-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/NoMail.js",
+			"size": 823,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Illustrations.js",
+				"sap/ui/webc/fiori/thirdparty/generated/i18n/i18n-defaults.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Dialog-NoMail.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Scene-NoMail.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Spot-NoMail.js"
+			]
+		},
+		{
+			"name": "thirdparty/illustrations/NoMail.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/NoMail.js",
+			"size": 485,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Illustrations.js",
+				"sap/ui/webc/fiori/thirdparty/generated/i18n/i18n-defaults.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Dialog-NoMail.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Scene-NoMail.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Spot-NoMail.js"
+			]
+		},
+		{
+			"name": "thirdparty/illustrations/NoNotifications-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/NoNotifications.js",
+			"size": 958,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Illustrations.js",
+				"sap/ui/webc/fiori/thirdparty/generated/i18n/i18n-defaults.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Dialog-NoNotifications.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Scene-NoNotifications.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Spot-NoNotifications.js"
+			]
+		},
+		{
+			"name": "thirdparty/illustrations/NoNotifications.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/NoNotifications.js",
+			"size": 539,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Illustrations.js",
+				"sap/ui/webc/fiori/thirdparty/generated/i18n/i18n-defaults.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Dialog-NoNotifications.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Scene-NoNotifications.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Spot-NoNotifications.js"
+			]
+		},
+		{
+			"name": "thirdparty/illustrations/NoSavedItems-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/NoSavedItems.js",
+			"size": 913,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Illustrations.js",
+				"sap/ui/webc/fiori/thirdparty/generated/i18n/i18n-defaults.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Dialog-NoSavedItems.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Scene-NoSavedItems.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Spot-NoSavedItems.js"
+			]
+		},
+		{
+			"name": "thirdparty/illustrations/NoSavedItems.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/NoSavedItems.js",
+			"size": 521,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Illustrations.js",
+				"sap/ui/webc/fiori/thirdparty/generated/i18n/i18n-defaults.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Dialog-NoSavedItems.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Scene-NoSavedItems.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Spot-NoSavedItems.js"
+			]
+		},
+		{
+			"name": "thirdparty/illustrations/NoSearchResults-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/NoSearchResults.js",
+			"size": 958,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Illustrations.js",
+				"sap/ui/webc/fiori/thirdparty/generated/i18n/i18n-defaults.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Dialog-NoSearchResults.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Scene-NoSearchResults.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Spot-NoSearchResults.js"
+			]
+		},
+		{
+			"name": "thirdparty/illustrations/NoSearchResults.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/NoSearchResults.js",
+			"size": 539,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Illustrations.js",
+				"sap/ui/webc/fiori/thirdparty/generated/i18n/i18n-defaults.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Dialog-NoSearchResults.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Scene-NoSearchResults.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Spot-NoSearchResults.js"
+			]
+		},
+		{
+			"name": "thirdparty/illustrations/NoTasks-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/NoTasks.js",
+			"size": 838,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Illustrations.js",
+				"sap/ui/webc/fiori/thirdparty/generated/i18n/i18n-defaults.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Dialog-NoTasks.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Scene-NoTasks.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Spot-NoTasks.js"
+			]
+		},
+		{
+			"name": "thirdparty/illustrations/NoTasks.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/NoTasks.js",
+			"size": 491,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Illustrations.js",
+				"sap/ui/webc/fiori/thirdparty/generated/i18n/i18n-defaults.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Dialog-NoTasks.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Scene-NoTasks.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Spot-NoTasks.js"
+			]
+		},
+		{
+			"name": "thirdparty/illustrations/UnableToLoad-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/UnableToLoad.js",
+			"size": 913,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Illustrations.js",
+				"sap/ui/webc/fiori/thirdparty/generated/i18n/i18n-defaults.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Dialog-UnableToLoad.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Scene-UnableToLoad.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Spot-UnableToLoad.js"
+			]
+		},
+		{
+			"name": "thirdparty/illustrations/UnableToLoad.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/UnableToLoad.js",
+			"size": 521,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Illustrations.js",
+				"sap/ui/webc/fiori/thirdparty/generated/i18n/i18n-defaults.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Dialog-UnableToLoad.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Scene-UnableToLoad.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Spot-UnableToLoad.js"
+			]
+		},
+		{
+			"name": "thirdparty/illustrations/UnableToUpload-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/UnableToUpload.js",
+			"size": 943,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Illustrations.js",
+				"sap/ui/webc/fiori/thirdparty/generated/i18n/i18n-defaults.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Dialog-UnableToUpload.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Scene-UnableToUpload.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Spot-UnableToUpload.js"
+			]
+		},
+		{
+			"name": "thirdparty/illustrations/UnableToUpload.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/UnableToUpload.js",
+			"size": 533,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/asset-registries/Illustrations.js",
+				"sap/ui/webc/fiori/thirdparty/generated/i18n/i18n-defaults.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Dialog-UnableToUpload.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Scene-UnableToUpload.js",
+				"sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Spot-UnableToUpload.js"
+			]
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Dialog-BeforeSearch-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Dialog-BeforeSearch.js",
+			"size": 3121,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Dialog-BeforeSearch.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Dialog-BeforeSearch.js",
+			"size": 3097
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Dialog-NoActivities-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Dialog-NoActivities.js",
+			"size": 6203,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Dialog-NoActivities.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Dialog-NoActivities.js",
+			"size": 6184
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Dialog-NoData-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Dialog-NoData.js",
+			"size": 2732,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Dialog-NoData.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Dialog-NoData.js",
+			"size": 2705
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Dialog-NoEntries-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Dialog-NoEntries.js",
+			"size": 2960,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Dialog-NoEntries.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Dialog-NoEntries.js",
+			"size": 2941
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Dialog-NoMail-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Dialog-NoMail.js",
+			"size": 2686,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Dialog-NoMail.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Dialog-NoMail.js",
+			"size": 2660
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Dialog-NoNotifications-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Dialog-NoNotifications.js",
+			"size": 7918,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Dialog-NoNotifications.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Dialog-NoNotifications.js",
+			"size": 7895
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Dialog-NoSavedItems-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Dialog-NoSavedItems.js",
+			"size": 3589,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Dialog-NoSavedItems.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Dialog-NoSavedItems.js",
+			"size": 3561
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Dialog-NoSearchResults-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Dialog-NoSearchResults.js",
+			"size": 3193,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Dialog-NoSearchResults.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Dialog-NoSearchResults.js",
+			"size": 3171
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Dialog-NoTasks-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Dialog-NoTasks.js",
+			"size": 4767,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Dialog-NoTasks.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Dialog-NoTasks.js",
+			"size": 4744
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Dialog-UnableToLoad-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Dialog-UnableToLoad.js",
+			"size": 1959,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Dialog-UnableToLoad.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Dialog-UnableToLoad.js",
+			"size": 1933
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Dialog-UnableToUpload-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Dialog-UnableToUpload.js",
+			"size": 3030,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Dialog-UnableToUpload.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Dialog-UnableToUpload.js",
+			"size": 3006
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Scene-BeforeSearch-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Scene-BeforeSearch.js",
+			"size": 14389,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Scene-BeforeSearch.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Scene-BeforeSearch.js",
+			"size": 14385
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Scene-NoActivities-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Scene-NoActivities.js",
+			"size": 8950,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Scene-NoActivities.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Scene-NoActivities.js",
+			"size": 8943
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Scene-NoData-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Scene-NoData.js",
+			"size": 7992,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Scene-NoData.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Scene-NoData.js",
+			"size": 7976
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Scene-NoEntries-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Scene-NoEntries.js",
+			"size": 7116,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Scene-NoEntries.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Scene-NoEntries.js",
+			"size": 7113
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Scene-NoMail-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Scene-NoMail.js",
+			"size": 10200,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Scene-NoMail.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Scene-NoMail.js",
+			"size": 10184
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Scene-NoNotifications-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Scene-NoNotifications.js",
+			"size": 9735,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Scene-NoNotifications.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Scene-NoNotifications.js",
+			"size": 9732
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Scene-NoSavedItems-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Scene-NoSavedItems.js",
+			"size": 21459,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Scene-NoSavedItems.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Scene-NoSavedItems.js",
+			"size": 21459
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Scene-NoSearchResults-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Scene-NoSearchResults.js",
+			"size": 4882,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Scene-NoSearchResults.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Scene-NoSearchResults.js",
+			"size": 4862
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Scene-NoTasks-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Scene-NoTasks.js",
+			"size": 7269,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Scene-NoTasks.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Scene-NoTasks.js",
+			"size": 7256
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Scene-UnableToLoad-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Scene-UnableToLoad.js",
+			"size": 5841,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Scene-UnableToLoad.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Scene-UnableToLoad.js",
+			"size": 5829
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Scene-UnableToUpload-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Scene-UnableToUpload.js",
+			"size": 8113,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Scene-UnableToUpload.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Scene-UnableToUpload.js",
+			"size": 8087
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Spot-BeforeSearch-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Spot-BeforeSearch.js",
+			"size": 2677,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Spot-BeforeSearch.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Spot-BeforeSearch.js",
+			"size": 2654
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Spot-NoActivities-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Spot-NoActivities.js",
+			"size": 7240,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Spot-NoActivities.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Spot-NoActivities.js",
+			"size": 7229
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Spot-NoData-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Spot-NoData.js",
+			"size": 2445,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Spot-NoData.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Spot-NoData.js",
+			"size": 2420
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Spot-NoEntries-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Spot-NoEntries.js",
+			"size": 3146,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Spot-NoEntries.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Spot-NoEntries.js",
+			"size": 3134
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Spot-NoMail-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Spot-NoMail.js",
+			"size": 2348,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Spot-NoMail.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Spot-NoMail.js",
+			"size": 2325
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Spot-NoNotifications-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Spot-NoNotifications.js",
+			"size": 4356,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Spot-NoNotifications.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Spot-NoNotifications.js",
+			"size": 4337
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Spot-NoSavedItems-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Spot-NoSavedItems.js",
+			"size": 1950,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Spot-NoSavedItems.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Spot-NoSavedItems.js",
+			"size": 1925
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Spot-NoSearchResults-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Spot-NoSearchResults.js",
+			"size": 3043,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Spot-NoSearchResults.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Spot-NoSearchResults.js",
+			"size": 3023
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Spot-NoTasks-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Spot-NoTasks.js",
+			"size": 7552,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Spot-NoTasks.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Spot-NoTasks.js",
+			"size": 7538
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Spot-UnableToLoad-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Spot-UnableToLoad.js",
+			"size": 1723,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Spot-UnableToLoad.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Spot-UnableToLoad.js",
+			"size": 1700
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Spot-UnableToUpload-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Spot-UnableToUpload.js",
+			"size": 2819,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/illustrations/sapIllus-Spot-UnableToUpload.js",
+			"module": "sap/ui/webc/fiori/thirdparty/illustrations/sapIllus-Spot-UnableToUpload.js",
+			"size": 2796
+		},
+		{
+			"name": "thirdparty/messagebundle_ar-4986cab5-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_ar-4986cab5.js",
+			"size": 6010,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/messagebundle_ar-4986cab5.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_ar-4986cab5.js",
+			"size": 5594
+		},
+		{
+			"name": "thirdparty/messagebundle_bg-7e9aa059-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_bg-7e9aa059.js",
+			"size": 6620,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/messagebundle_bg-7e9aa059.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_bg-7e9aa059.js",
+			"size": 6206
+		},
+		{
+			"name": "thirdparty/messagebundle_ca-01451c6a-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_ca-01451c6a.js",
+			"size": 5098,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/messagebundle_ca-01451c6a.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_ca-01451c6a.js",
+			"size": 4682
+		},
+		{
+			"name": "thirdparty/messagebundle_cs-ac6c8738-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_cs-ac6c8738.js",
+			"size": 5116,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/messagebundle_cs-ac6c8738.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_cs-ac6c8738.js",
+			"size": 4700
+		},
+		{
+			"name": "thirdparty/messagebundle_cy-3dfe9dd5-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_cy-3dfe9dd5.js",
+			"size": 5097,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/messagebundle_cy-3dfe9dd5.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_cy-3dfe9dd5.js",
+			"size": 4683
+		},
+		{
+			"name": "thirdparty/messagebundle_da-663276e4-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_da-663276e4.js",
+			"size": 4927,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/messagebundle_da-663276e4.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_da-663276e4.js",
+			"size": 4511
+		},
+		{
+			"name": "thirdparty/messagebundle_de-72e82e46-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_de-72e82e46.js",
+			"size": 5254,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/messagebundle_de-72e82e46.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_de-72e82e46.js",
+			"size": 4838
+		},
+		{
+			"name": "thirdparty/messagebundle_el-c96044ad-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_el-c96044ad.js",
+			"size": 6739,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/messagebundle_el-c96044ad.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_el-c96044ad.js",
+			"size": 6325
+		},
+		{
+			"name": "thirdparty/messagebundle_en-2d504d66-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_en-2d504d66.js",
+			"size": 4786,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/messagebundle_en-2d504d66.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_en-2d504d66.js",
+			"size": 4370
+		},
+		{
+			"name": "thirdparty/messagebundle_en_GB-c8b9808b-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_en_GB-c8b9808b.js",
+			"size": 4795,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/messagebundle_en_GB-c8b9808b.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_en_GB-c8b9808b.js",
+			"size": 4373
+		},
+		{
+			"name": "thirdparty/messagebundle_en_US_sappsd-ff0f05eb-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_en_US_sappsd-ff0f05eb.js",
+			"size": 8478,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/messagebundle_en_US_sappsd-ff0f05eb.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_en_US_sappsd-ff0f05eb.js",
+			"size": 8044
+		},
+		{
+			"name": "thirdparty/messagebundle_en_US_saprigi-9005c49a-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_en_US_saprigi-9005c49a.js",
+			"size": 15192,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/messagebundle_en_US_saprigi-9005c49a.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_en_US_saprigi-9005c49a.js",
+			"size": 14796
+		},
+		{
+			"name": "thirdparty/messagebundle_en_US_saptrc-e2be9611-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_en_US_saptrc-e2be9611.js",
+			"size": 6795,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/messagebundle_en_US_saptrc-e2be9611.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_en_US_saptrc-e2be9611.js",
+			"size": 6361
+		},
+		{
+			"name": "thirdparty/messagebundle_es-20ceffef-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_es-20ceffef.js",
+			"size": 5104,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/messagebundle_es-20ceffef.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_es-20ceffef.js",
+			"size": 4688
+		},
+		{
+			"name": "thirdparty/messagebundle_es_MX-9617bbe2-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_es_MX-9617bbe2.js",
+			"size": 5102,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/messagebundle_es_MX-9617bbe2.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_es_MX-9617bbe2.js",
+			"size": 4680
+		},
+		{
+			"name": "thirdparty/messagebundle_et-70cc45fe-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_et-70cc45fe.js",
+			"size": 4933,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/messagebundle_et-70cc45fe.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_et-70cc45fe.js",
+			"size": 4519
+		},
+		{
+			"name": "thirdparty/messagebundle_fi-38c6589c-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_fi-38c6589c.js",
+			"size": 5082,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/messagebundle_fi-38c6589c.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_fi-38c6589c.js",
+			"size": 4668
+		},
+		{
+			"name": "thirdparty/messagebundle_fr-0a9f2183-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_fr-0a9f2183.js",
+			"size": 5337,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/messagebundle_fr-0a9f2183.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_fr-0a9f2183.js",
+			"size": 4921
+		},
+		{
+			"name": "thirdparty/messagebundle_fr_CA-5401e307-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_fr_CA-5401e307.js",
+			"size": 5398,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/messagebundle_fr_CA-5401e307.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_fr_CA-5401e307.js",
+			"size": 4976
+		},
+		{
+			"name": "thirdparty/messagebundle_hi-9aad7093-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_hi-9aad7093.js",
+			"size": 7844,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/messagebundle_hi-9aad7093.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_hi-9aad7093.js",
+			"size": 7428
+		},
+		{
+			"name": "thirdparty/messagebundle_hr-9a46b37c-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_hr-9a46b37c.js",
+			"size": 5084,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/messagebundle_hr-9a46b37c.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_hr-9a46b37c.js",
+			"size": 4668
+		},
+		{
+			"name": "thirdparty/messagebundle_hu-94c5c8ec-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_hu-94c5c8ec.js",
+			"size": 5143,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/messagebundle_hu-94c5c8ec.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_hu-94c5c8ec.js",
+			"size": 4729
+		},
+		{
+			"name": "thirdparty/messagebundle_in-07afd376-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_in-07afd376.js",
+			"size": 2531,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/messagebundle_in-07afd376.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_in-07afd376.js",
+			"size": 2289
+		},
+		{
+			"name": "thirdparty/messagebundle_it-594c952a-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_it-594c952a.js",
+			"size": 5089,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/messagebundle_it-594c952a.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_it-594c952a.js",
+			"size": 4673
+		},
+		{
+			"name": "thirdparty/messagebundle_iw-3ad5f2eb-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_iw-3ad5f2eb.js",
+			"size": 5585,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/messagebundle_iw-3ad5f2eb.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_iw-3ad5f2eb.js",
+			"size": 5171
+		},
+		{
+			"name": "thirdparty/messagebundle_ja-ec45026f-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_ja-ec45026f.js",
+			"size": 5670,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/messagebundle_ja-ec45026f.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_ja-ec45026f.js",
+			"size": 5254
+		},
+		{
+			"name": "thirdparty/messagebundle_kk-9322e295-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_kk-9322e295.js",
+			"size": 6465,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/messagebundle_kk-9322e295.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_kk-9322e295.js",
+			"size": 6049
+		},
+		{
+			"name": "thirdparty/messagebundle_ko-64bfa5d3-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_ko-64bfa5d3.js",
+			"size": 5374,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/messagebundle_ko-64bfa5d3.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_ko-64bfa5d3.js",
+			"size": 4958
+		},
+		{
+			"name": "thirdparty/messagebundle_lt-caf1e289-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_lt-caf1e289.js",
+			"size": 5163,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/messagebundle_lt-caf1e289.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_lt-caf1e289.js",
+			"size": 4749
+		},
+		{
+			"name": "thirdparty/messagebundle_lv-8877dca6-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_lv-8877dca6.js",
+			"size": 5216,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/messagebundle_lv-8877dca6.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_lv-8877dca6.js",
+			"size": 4802
+		},
+		{
+			"name": "thirdparty/messagebundle_ms-d3aa34d7-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_ms-d3aa34d7.js",
+			"size": 5052,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/messagebundle_ms-d3aa34d7.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_ms-d3aa34d7.js",
+			"size": 4636
+		},
+		{
+			"name": "thirdparty/messagebundle_nl-7653fecd-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_nl-7653fecd.js",
+			"size": 5096,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/messagebundle_nl-7653fecd.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_nl-7653fecd.js",
+			"size": 4680
+		},
+		{
+			"name": "thirdparty/messagebundle_no-e4cf07cf-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_no-e4cf07cf.js",
+			"size": 4914,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/messagebundle_no-e4cf07cf.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_no-e4cf07cf.js",
+			"size": 4498
+		},
+		{
+			"name": "thirdparty/messagebundle_pl-34323862-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_pl-34323862.js",
+			"size": 5092,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/messagebundle_pl-34323862.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_pl-34323862.js",
+			"size": 4676
+		},
+		{
+			"name": "thirdparty/messagebundle_pt-3c7586ed-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_pt-3c7586ed.js",
+			"size": 5113,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/messagebundle_pt-3c7586ed.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_pt-3c7586ed.js",
+			"size": 4697
+		},
+		{
+			"name": "thirdparty/messagebundle_pt_PT-6101090e-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_pt_PT-6101090e.js",
+			"size": 5034,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/messagebundle_pt_PT-6101090e.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_pt_PT-6101090e.js",
+			"size": 4612
+		},
+		{
+			"name": "thirdparty/messagebundle_ro-3e1aac26-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_ro-3e1aac26.js",
+			"size": 5228,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/messagebundle_ro-3e1aac26.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_ro-3e1aac26.js",
+			"size": 4812
+		},
+		{
+			"name": "thirdparty/messagebundle_ru-6fab2afc-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_ru-6fab2afc.js",
+			"size": 6426,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/messagebundle_ru-6fab2afc.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_ru-6fab2afc.js",
+			"size": 6010
+		},
+		{
+			"name": "thirdparty/messagebundle_sh-59c9c475-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_sh-59c9c475.js",
+			"size": 5030,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/messagebundle_sh-59c9c475.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_sh-59c9c475.js",
+			"size": 4614
+		},
+		{
+			"name": "thirdparty/messagebundle_sk-3947d2b2-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_sk-3947d2b2.js",
+			"size": 5110,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/messagebundle_sk-3947d2b2.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_sk-3947d2b2.js",
+			"size": 4694
+		},
+		{
+			"name": "thirdparty/messagebundle_sl-5cb9b7cc-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_sl-5cb9b7cc.js",
+			"size": 5056,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/messagebundle_sl-5cb9b7cc.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_sl-5cb9b7cc.js",
+			"size": 4640
+		},
+		{
+			"name": "thirdparty/messagebundle_sv-9bfc19a7-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_sv-9bfc19a7.js",
+			"size": 4944,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/messagebundle_sv-9bfc19a7.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_sv-9bfc19a7.js",
+			"size": 4528
+		},
+		{
+			"name": "thirdparty/messagebundle_th-a6a77885-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_th-a6a77885.js",
+			"size": 7791,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/messagebundle_th-a6a77885.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_th-a6a77885.js",
+			"size": 7375
+		},
+		{
+			"name": "thirdparty/messagebundle_tr-6f2ec772-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_tr-6f2ec772.js",
+			"size": 5117,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/messagebundle_tr-6f2ec772.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_tr-6f2ec772.js",
+			"size": 4701
+		},
+		{
+			"name": "thirdparty/messagebundle_uk-dde2e605-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_uk-dde2e605.js",
+			"size": 6688,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/messagebundle_uk-dde2e605.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_uk-dde2e605.js",
+			"size": 6272
+		},
+		{
+			"name": "thirdparty/messagebundle_vi-e549a9d4-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_vi-e549a9d4.js",
+			"size": 5830,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/messagebundle_vi-e549a9d4.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_vi-e549a9d4.js",
+			"size": 5414
+		},
+		{
+			"name": "thirdparty/messagebundle_zh_CN-fa4baf83-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_zh_CN-fa4baf83.js",
+			"size": 4670,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/messagebundle_zh_CN-fa4baf83.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_zh_CN-fa4baf83.js",
+			"size": 4250
+		},
+		{
+			"name": "thirdparty/messagebundle_zh_TW-060ab1cb-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_zh_TW-060ab1cb.js",
+			"size": 4759,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/messagebundle_zh_TW-060ab1cb.js",
+			"module": "sap/ui/webc/fiori/thirdparty/messagebundle_zh_TW-060ab1cb.js",
+			"size": 4339
+		},
+		{
+			"name": "thirdparty/parameters-bundle.css-68447658-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/parameters-bundle.css-68447658.js",
+			"size": 3937,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/parameters-bundle.css-68447658.js",
+			"module": "sap/ui/webc/fiori/thirdparty/parameters-bundle.css-68447658.js",
+			"size": 3863
+		},
+		{
+			"name": "thirdparty/parameters-bundle.css-816bd805-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/parameters-bundle.css-816bd805.js",
+			"size": 3995,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/parameters-bundle.css-816bd805.js",
+			"module": "sap/ui/webc/fiori/thirdparty/parameters-bundle.css-816bd805.js",
+			"size": 3921
+		},
+		{
+			"name": "thirdparty/parameters-bundle.css-a596f129-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/parameters-bundle.css-a596f129.js",
+			"size": 2933,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/parameters-bundle.css-a596f129.js",
+			"module": "sap/ui/webc/fiori/thirdparty/parameters-bundle.css-a596f129.js",
+			"size": 2859
+		},
+		{
+			"name": "thirdparty/parameters-bundle.css-a8f6197d-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/parameters-bundle.css-a8f6197d.js",
+			"size": 4173,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/parameters-bundle.css-a8f6197d.js",
+			"module": "sap/ui/webc/fiori/thirdparty/parameters-bundle.css-a8f6197d.js",
+			"size": 4099
+		},
+		{
+			"name": "thirdparty/parameters-bundle.css-cc7a39f2-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/parameters-bundle.css-cc7a39f2.js",
+			"size": 4231,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/parameters-bundle.css-cc7a39f2.js",
+			"module": "sap/ui/webc/fiori/thirdparty/parameters-bundle.css-cc7a39f2.js",
+			"size": 4157
+		},
+		{
+			"name": "thirdparty/parameters-bundle.css-d0336f5e-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/parameters-bundle.css-d0336f5e.js",
+			"size": 2933,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/parameters-bundle.css-d0336f5e.js",
+			"module": "sap/ui/webc/fiori/thirdparty/parameters-bundle.css-d0336f5e.js",
+			"size": 2859
+		},
+		{
+			"name": "thirdparty/parameters-bundle.css-f592e4f1-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/parameters-bundle.css-f592e4f1.js",
+			"size": 2933,
+			"isDebug": true
+		},
+		{
+			"name": "thirdparty/parameters-bundle.css-f592e4f1.js",
+			"module": "sap/ui/webc/fiori/thirdparty/parameters-bundle.css-f592e4f1.js",
+			"size": 2859
+		},
+		{
+			"name": "thirdparty/types/BarDesign-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/types/BarDesign.js",
+			"size": 593,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/types/DataType.js"
+			]
+		},
+		{
+			"name": "thirdparty/types/BarDesign.js",
+			"module": "sap/ui/webc/fiori/thirdparty/types/BarDesign.js",
+			"size": 362,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/types/DataType.js"
+			]
+		},
+		{
+			"name": "thirdparty/types/FCLLayout-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/types/FCLLayout.js",
+			"size": 975,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/types/DataType.js"
+			]
+		},
+		{
+			"name": "thirdparty/types/FCLLayout.js",
+			"module": "sap/ui/webc/fiori/thirdparty/types/FCLLayout.js",
+			"size": 718,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/types/DataType.js"
+			]
+		},
+		{
+			"name": "thirdparty/types/IllustrationMessageType-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/types/IllustrationMessageType.js",
+			"size": 909,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/types/DataType.js"
+			]
+		},
+		{
+			"name": "thirdparty/types/IllustrationMessageType.js",
+			"module": "sap/ui/webc/fiori/thirdparty/types/IllustrationMessageType.js",
+			"size": 560,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/types/DataType.js"
+			]
+		},
+		{
+			"name": "thirdparty/types/PageBackgroundDesign-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/types/PageBackgroundDesign.js",
+			"size": 627,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/types/DataType.js"
+			]
+		},
+		{
+			"name": "thirdparty/types/PageBackgroundDesign.js",
+			"module": "sap/ui/webc/fiori/thirdparty/types/PageBackgroundDesign.js",
+			"size": 328,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/types/DataType.js"
+			]
+		},
+		{
+			"name": "thirdparty/types/TimelineLayout-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/types/TimelineLayout.js",
+			"size": 552,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/types/DataType.js"
+			]
+		},
+		{
+			"name": "thirdparty/types/TimelineLayout.js",
+			"module": "sap/ui/webc/fiori/thirdparty/types/TimelineLayout.js",
+			"size": 320,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/types/DataType.js"
+			]
+		},
+		{
+			"name": "thirdparty/types/UploadCollectionDnDMode-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/types/UploadCollectionDnDMode.js",
+			"size": 623,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/types/DataType.js"
+			]
+		},
+		{
+			"name": "thirdparty/types/UploadCollectionDnDMode.js",
+			"module": "sap/ui/webc/fiori/thirdparty/types/UploadCollectionDnDMode.js",
+			"size": 312,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/types/DataType.js"
+			]
+		},
+		{
+			"name": "thirdparty/types/UploadState-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/types/UploadState.js",
+			"size": 595,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/types/DataType.js"
+			]
+		},
+		{
+			"name": "thirdparty/types/UploadState.js",
+			"module": "sap/ui/webc/fiori/thirdparty/types/UploadState.js",
+			"size": 346,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/types/DataType.js"
+			]
+		},
+		{
+			"name": "thirdparty/upload-utils/UploadCollectionBodyDnD-dbg.js",
+			"module": "sap/ui/webc/fiori/thirdparty/upload-utils/UploadCollectionBodyDnD.js",
+			"size": 2324,
+			"isDebug": true,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/EventProvider.js",
+				"sap/ui/webc/fiori/thirdparty/types/UploadCollectionDnDMode.js"
+			]
+		},
+		{
+			"name": "thirdparty/upload-utils/UploadCollectionBodyDnD.js",
+			"module": "sap/ui/webc/fiori/thirdparty/upload-utils/UploadCollectionBodyDnD.js",
+			"size": 1204,
+			"required": [
+				"sap/ui/webc/common/thirdparty/base/EventProvider.js",
+				"sap/ui/webc/fiori/thirdparty/types/UploadCollectionDnDMode.js"
+			]
+		}
+	]
+}

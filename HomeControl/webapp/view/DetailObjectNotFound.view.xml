@@ -1,0 +1,16 @@
+<mvc:View
+	controllerName="com.davis.homecontrol.controller.BaseController"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m">
+
+	<MessagePage
+		id="page"
+		title="{i18n>noObjectFoundTitle}"
+		text="{i18n>noObjectFoundText}"
+		icon="sap-icon://error"
+		description=""
+		showNavButton="{device>/system/phone}"
+		navButtonPress="onNavBack">
+	</MessagePage>
+
+</mvc:View>

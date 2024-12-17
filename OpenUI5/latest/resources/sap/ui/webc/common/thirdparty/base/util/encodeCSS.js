@@ -1,0 +1,1 @@
+sap.ui.define(function(){"use strict";const t=/[\x00-\x2f\x3a-\x40\x5b-\x60\x7b-\xff\u2028\u2029][0-9A-Fa-f]?/g;const n=(t,n)=>{let r=t.toString(16);if(n){r=r.padStart(n,"0")}return r};const r=t=>{const r=t.charCodeAt(0);if(t.length===1){return`\\${n(r)}`}return`\\${n(r)} ${t.substr(1)}`};const e=n=>n.replace(t,r);return e});

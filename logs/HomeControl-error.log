@@ -1,0 +1,1218 @@
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1327:14)
+    at listenInCluster (net.js:1375:12)
+    at Server.listen (net.js:1462:7)
+    at Object.<anonymous> (/Users/Shared/HomeControl/static_server.js:94:4)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1354:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:238:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)

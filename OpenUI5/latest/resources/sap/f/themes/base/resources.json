@@ -1,0 +1,336 @@
+{
+	"_version": "1.1.0",
+	"resources": [
+		{
+			"name": ".theming",
+			"size": 64,
+			"theme": "base"
+		},
+		{
+			"name": "AvatarGroup.less",
+			"size": 4014,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "Card.less",
+			"size": 11718,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "CardLoading.less",
+			"size": 4878,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "DynamicPage.less",
+			"size": 8321,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "DynamicPageHeader.less",
+			"size": 1540,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "DynamicPageTitle.less",
+			"size": 8818,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "FlexibleColumnLayout.less",
+			"size": 3259,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "GridContainer.less",
+			"size": 1311,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "GridDragAndDrop.less",
+			"size": 159,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "GridList.less",
+			"size": 1615,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "GridListItem.less",
+			"size": 2365,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "IllustratedMessage.less",
+			"size": 1801,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "Illustration.less",
+			"size": 1387,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "ProductSwitch.less",
+			"size": 74,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "ProductSwitchItem.less",
+			"size": 3086,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "SemanticPage.less",
+			"size": 740,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "ShellBar.less",
+			"size": 8707,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "css_variables.css",
+			"size": 3874,
+			"theme": "base"
+		},
+		{
+			"name": "css_variables.less",
+			"size": 234,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "css_variables.source.less",
+			"size": 95650,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "illustrations/sapIllus-Dialog-BeforeSearch.svg",
+			"size": 3026,
+			"theme": "base"
+		},
+		{
+			"name": "illustrations/sapIllus-Dialog-NoActivities.svg",
+			"size": 6108,
+			"theme": "base"
+		},
+		{
+			"name": "illustrations/sapIllus-Dialog-NoData.svg",
+			"size": 2637,
+			"theme": "base"
+		},
+		{
+			"name": "illustrations/sapIllus-Dialog-NoEntries.svg",
+			"size": 2865,
+			"theme": "base"
+		},
+		{
+			"name": "illustrations/sapIllus-Dialog-NoMail.svg",
+			"size": 2591,
+			"theme": "base"
+		},
+		{
+			"name": "illustrations/sapIllus-Dialog-NoNotifications.svg",
+			"size": 7823,
+			"theme": "base"
+		},
+		{
+			"name": "illustrations/sapIllus-Dialog-NoSavedItems.svg",
+			"size": 3490,
+			"theme": "base"
+		},
+		{
+			"name": "illustrations/sapIllus-Dialog-NoSearchResults.svg",
+			"size": 3098,
+			"theme": "base"
+		},
+		{
+			"name": "illustrations/sapIllus-Dialog-NoTasks.svg",
+			"size": 4668,
+			"theme": "base"
+		},
+		{
+			"name": "illustrations/sapIllus-Dialog-UnableToLoad.svg",
+			"size": 1864,
+			"theme": "base"
+		},
+		{
+			"name": "illustrations/sapIllus-Dialog-UnableToUpload.svg",
+			"size": 2935,
+			"theme": "base"
+		},
+		{
+			"name": "illustrations/sapIllus-Patterns.svg",
+			"size": 1400,
+			"theme": "base"
+		},
+		{
+			"name": "illustrations/sapIllus-Scene-BeforeSearch.svg",
+			"size": 14296,
+			"theme": "base"
+		},
+		{
+			"name": "illustrations/sapIllus-Scene-NoActivities.svg",
+			"size": 8857,
+			"theme": "base"
+		},
+		{
+			"name": "illustrations/sapIllus-Scene-NoData.svg",
+			"size": 7895,
+			"theme": "base"
+		},
+		{
+			"name": "illustrations/sapIllus-Scene-NoEntries.svg",
+			"size": 7023,
+			"theme": "base"
+		},
+		{
+			"name": "illustrations/sapIllus-Scene-NoMail.svg",
+			"size": 10103,
+			"theme": "base"
+		},
+		{
+			"name": "illustrations/sapIllus-Scene-NoNotifications.svg",
+			"size": 9638,
+			"theme": "base"
+		},
+		{
+			"name": "illustrations/sapIllus-Scene-NoSavedItems.svg",
+			"size": 21366,
+			"theme": "base"
+		},
+		{
+			"name": "illustrations/sapIllus-Scene-NoSearchResults.svg",
+			"size": 4789,
+			"theme": "base"
+		},
+		{
+			"name": "illustrations/sapIllus-Scene-NoTasks.svg",
+			"size": 7176,
+			"theme": "base"
+		},
+		{
+			"name": "illustrations/sapIllus-Scene-UnableToLoad.svg",
+			"size": 5748,
+			"theme": "base"
+		},
+		{
+			"name": "illustrations/sapIllus-Scene-UnableToUpload.svg",
+			"size": 8016,
+			"theme": "base"
+		},
+		{
+			"name": "illustrations/sapIllus-Spot-BeforeSearch.svg",
+			"size": 2586,
+			"theme": "base"
+		},
+		{
+			"name": "illustrations/sapIllus-Spot-NoActivities.svg",
+			"size": 7149,
+			"theme": "base"
+		},
+		{
+			"name": "illustrations/sapIllus-Spot-NoData.svg",
+			"size": 2354,
+			"theme": "base"
+		},
+		{
+			"name": "illustrations/sapIllus-Spot-NoEntries.svg",
+			"size": 3055,
+			"theme": "base"
+		},
+		{
+			"name": "illustrations/sapIllus-Spot-NoMail.svg",
+			"size": 2257,
+			"theme": "base"
+		},
+		{
+			"name": "illustrations/sapIllus-Spot-NoNotifications.svg",
+			"size": 4265,
+			"theme": "base"
+		},
+		{
+			"name": "illustrations/sapIllus-Spot-NoSavedItems.svg",
+			"size": 1904,
+			"theme": "base"
+		},
+		{
+			"name": "illustrations/sapIllus-Spot-NoSearchResults.svg",
+			"size": 2952,
+			"theme": "base"
+		},
+		{
+			"name": "illustrations/sapIllus-Spot-NoTasks.svg",
+			"size": 7461,
+			"theme": "base"
+		},
+		{
+			"name": "illustrations/sapIllus-Spot-UnableToLoad.svg",
+			"size": 1632,
+			"theme": "base"
+		},
+		{
+			"name": "illustrations/sapIllus-Spot-UnableToUpload.svg",
+			"size": 2728,
+			"theme": "base"
+		},
+		{
+			"name": "library-RTL.css",
+			"size": 69263,
+			"theme": "base"
+		},
+		{
+			"name": "library-parameters.json",
+			"size": 1541,
+			"theme": "base"
+		},
+		{
+			"name": "library.css",
+			"size": 69267,
+			"theme": "base"
+		},
+		{
+			"name": "library.less",
+			"size": 65367,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "library.source.less",
+			"size": 776,
+			"designtime": true,
+			"theme": "base"
+		},
+		{
+			"name": "library_skeleton-RTL.css",
+			"size": 71457,
+			"theme": "base"
+		},
+		{
+			"name": "library_skeleton.css",
+			"size": 71461,
+			"theme": "base"
+		}
+	]
+}

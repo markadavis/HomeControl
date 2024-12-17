@@ -1,0 +1,6 @@
+/*!
+ * OpenUI5
+ * (c) Copyright 2009-2021 SAP SE or an SAP affiliate company.
+ * Licensed under the Apache License, Version 2.0 - see LICENSE.txt.
+ */
+sap.ui.define(["sap/ui/webc/common/WebComponent","./library","sap/ui/core/library","./thirdparty/StepInput"],function(e,a,t){"use strict";var l=t.ValueState;var u=e.extend("sap.ui.webc.main.StepInput",{metadata:{library:"sap.ui.webc.main",tag:"ui5-step-input-ui5",properties:{accessibleName:{type:"string"},accessibleNameRef:{type:"string",defaultValue:""},disabled:{type:"boolean",defaultValue:false},max:{type:"float"},min:{type:"float"},name:{type:"string",defaultValue:""},placeholder:{type:"string",defaultValue:undefined},readonly:{type:"boolean",defaultValue:false},required:{type:"boolean",defaultValue:false},step:{type:"float",defaultValue:1},value:{type:"float",defaultValue:0},valuePrecision:{type:"int",defaultValue:0},valueState:{type:"sap.ui.core.ValueState",defaultValue:l.None},valueStateMessage:{type:"string",defaultValue:"",mapping:{type:"slot",to:"div"}}},events:{change:{parameters:{}}}}});return u});

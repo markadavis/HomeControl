@@ -1,0 +1,11 @@
+sap.ui.define(["exports","../lit-html","../directive"],function(e,t,n){"use strict";
+/**
+	 * @license
+	 * Copyright 2020 Google LLC
+	 * SPDX-License-Identifier: BSD-3-Clause
+	 */const{et:s}=t._Σ,i=()=>document.createComment(""),o=(e,t,n)=>{var o;const l=e.A.parentNode,r=void 0===t?e.B:t.A;if(void 0===n){const t=l.insertBefore(i(),r),o=l.insertBefore(i(),r);n=new s(t,o,e,e.options)}else{const t=n.B.nextSibling,s=n.M!==e;if(s&&(null===(o=n.Q)||void 0===o||o.call(n,e),n.M=e),t!==r||s){let e=n.A;for(;e!==t;){const t=e.nextSibling;l.insertBefore(e,r),e=t}}}return n},l=(e,t,n=e)=>(e.I(t,n),e),r={},c=(e,t=r)=>e.H=t,u=e=>e.H,f=e=>{var t;null===(t=e.P)||void 0===t||t.call(e,!1,!0);let n=e.A;const s=e.B.nextSibling;for(;n!==s;){const e=n.nextSibling;n.remove(),n=e}};
+/**
+	 * @license
+	 * Copyright 2017 Google LLC
+	 * SPDX-License-Identifier: BSD-3-Clause
+	 */const a=(e,t,n)=>{const s=new Map;for(let i=t;i<=n;i++)s.set(e[i],i);return s},d=n.directive(class extends n.Directive{constructor(e){if(super(e),e.type!==n.PartType.CHILD)throw Error("repeat() can only be used in text expressions")}Mt(e,t,n){let s;void 0===n?n=t:void 0!==t&&(s=t);const i=[],o=[];let l=0;for(const t of e)i[l]=s?s(t,l):l,o[l]=n(t,l),l++;return{values:o,keys:i}}render(e,t,n){return this.Mt(e,t,n).values}update(e,[n,s,i]){var r;const d=u(e),{values:v,keys:h}=this.Mt(n,s,i);if(!d)return this.Pt=h,v;const p=null!==(r=this.Pt)&&void 0!==r?r:this.Pt=[],g=[];let x,M,P=0,b=d.length-1,y=0,B=v.length-1;for(;P<=b&&y<=B;)if(null===d[P])P++;else if(null===d[b])b--;else if(p[P]===h[y])g[y]=l(d[P],v[y]),P++,y++;else if(p[b]===h[B])g[B]=l(d[b],v[B]),b--,B--;else if(p[P]===h[B])g[B]=l(d[P],v[B]),o(e,g[B+1],d[P]),P++,B--;else if(p[b]===h[y])g[y]=l(d[b],v[y]),o(e,d[P],d[b]),b--,y++;else if(void 0===x&&(x=a(h,y,B),M=a(p,P,b)),x.has(p[P]))if(x.has(p[b])){const t=M.get(h[y]),n=void 0!==t?d[t]:null;if(null===n){const t=o(e,d[P]);l(t,v[y]),g[y]=t}else g[y]=l(n,v[y]),o(e,d[P],n),d[t]=null;y++}else f(d[b]),b--;else f(d[P]),P++;for(;y<=B;){const t=o(e,g[B+1]);l(t,v[y]),g[y++]=t}for(;P<=b;){const e=d[P++];null!==e&&f(e)}return this.Pt=h,c(e,g),t.noChange}});e.repeat=d;Object.defineProperty(e,"__esModule",{value:true})});

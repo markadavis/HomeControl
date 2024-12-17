@@ -1,0 +1,1 @@
+sap.ui.define(["../util/createStyleInHead"],function(e){"use strict";const t=(t,n)=>{const i=document.head.querySelector(`style[data-ui5-theme-properties="${n}"]`);if(i){i.textContent=t||""}else{const i={"data-ui5-theme-properties":n};e(t,i)}};return t});

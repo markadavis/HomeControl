@@ -1,0 +1,6 @@
+/*!
+ * OpenUI5
+ * (c) Copyright 2009-2021 SAP SE or an SAP affiliate company.
+ * Licensed under the Apache License, Version 2.0 - see LICENSE.txt.
+ */
+sap.ui.define(["sap/ui/core/Control","sap/ui/core/Core","sap/ui/integration/controls/ActionsStrip","sap/ui/integration/util/BindingHelper","sap/ui/integration/util/BindingResolver"],function(C,a,A,B,b){"use strict";var F=C.extend("sap.ui.integration.cards.Footer",{metadata:{properties:{configuration:{type:"object"}},aggregations:{actionsStrip:{type:"sap.ui.integration.controls.ActionsStrip",multiple:false}},associations:{card:{type:"sap.ui.integration.widgets.Card",multiple:false}}},renderer:{apiVersion:2,render:function(r,f){r.openStart("div",f).class("sapFCardFooter");if(f.getCardInstance().isLoading()&&f._hasBinding()){r.class("sapFCardFooterLoading");}r.openEnd();r.renderControl(f.getActionsStrip());r.close("div");}}});F.prototype._hasBinding=function(){var c=B.createBindingInfos(this.getConfiguration(),this.getCardInstance().getBindingNamespaces());return c.actionsStrip.some(function(o){for(var k in o){if(b.isBindingInfo(o[k])){return true;}}return false;});};F.prototype.getCardInstance=function(){return a.byId(this.getCard());};F.create=function(c,o){if(!o.actionsStrip){return null;}return new F({configuration:o,card:c,actionsStrip:A.create(c,o.actionsStrip)});};return F;});

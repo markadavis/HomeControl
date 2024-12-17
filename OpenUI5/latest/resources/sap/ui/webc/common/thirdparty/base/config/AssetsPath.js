@@ -1,0 +1,1 @@
+sap.ui.define(["exports","../InitialConfiguration"],function(e,t){"use strict";let s;const n=()=>{if(s===undefined){s=t.getAssetsPath()}return s};const i=e=>{s=e};e.getAssetsPath=n;e.setAssetsPath=i;Object.defineProperty(e,"__esModule",{value:true})});

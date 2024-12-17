@@ -1,0 +1,112 @@
+{
+	"_version": "1.1.0",
+	"resources": [
+		{
+			"name": ".theming",
+			"size": 90,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "ContextMenu.less",
+			"size": 2522,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "Dialogs.less",
+			"size": 1966,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "FieldRepository.less",
+			"size": 1731,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "Overlay.less",
+			"size": 516,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "Toolbar.adaptation.less",
+			"size": 343,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "Toolbar.base.less",
+			"size": 727,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "Toolbar.personalization.less",
+			"size": 328,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "Toolbar.standalone.less",
+			"size": 281,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "css_variables.css",
+			"size": 7857,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "css_variables.less",
+			"size": 102073,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "css_variables.source.less",
+			"size": 101705,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "library-RTL.css",
+			"size": 33664,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "library-parameters.json",
+			"size": 3191,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "library.css",
+			"size": 33657,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "library.less",
+			"size": 9469,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "library.source.less",
+			"size": 573,
+			"designtime": true,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "library_skeleton-RTL.css",
+			"size": 34772,
+			"theme": "sap_horizon"
+		},
+		{
+			"name": "library_skeleton.css",
+			"size": 34765,
+			"theme": "sap_horizon"
+		}
+	]
+}

@@ -1,0 +1,6 @@
+/*!
+ * OpenUI5
+ * (c) Copyright 2009-2021 SAP SE or an SAP affiliate company.
+ * Licensed under the Apache License, Version 2.0 - see LICENSE.txt.
+ */
+sap.ui.define(["sap/ui/webc/common/WebComponent","./library","./thirdparty/Dialog"],function(e,t){"use strict";var a=e.extend("sap.ui.webc.main.Dialog",{metadata:{library:"sap.ui.webc.main",tag:"ui5-dialog-ui5",properties:{accessibleName:{type:"string",defaultValue:""},draggable:{type:"boolean",defaultValue:false},headerText:{type:"string",defaultValue:""},height:{type:"sap.ui.core.CSSSize",defaultValue:null,mapping:"style"},initialFocus:{type:"string",defaultValue:""},preventFocusRestore:{type:"boolean",defaultValue:false},resizable:{type:"boolean",defaultValue:false},stretch:{type:"boolean",defaultValue:false},width:{type:"sap.ui.core.CSSSize",defaultValue:null,mapping:"style"}},defaultAggregation:"content",aggregations:{content:{type:"sap.ui.core.Control",multiple:true},footer:{type:"sap.ui.core.Control",multiple:true,slot:"footer"},header:{type:"sap.ui.core.Control",multiple:true,slot:"header"}},events:{afterClose:{parameters:{}},afterOpen:{parameters:{}},beforeClose:{allowPreventDefault:true,parameters:{escPressed:{type:"boolean"}}},beforeOpen:{allowPreventDefault:true,parameters:{}}},methods:["applyFocus","close","isOpen","show"]}});return a});
